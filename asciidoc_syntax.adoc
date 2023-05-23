@@ -17,7 +17,7 @@ permalink: asciidoc_syntax.html
 [role="lead"]
 AsciiDoc è un linguaggio di markup leggero, simile a Markdown. Abbiamo scelto AsciiDoc rispetto al markdown standard perché offre più funzionalità pronte all'uso. Anche se è più potente, è ancora semplice da utilizzare. Fare riferimento alle sezioni seguenti per iniziare a scrivere in AsciiDoc.
 
-Vedere http://["Manuale utente di AsciiDoctor"^] per ulteriore assistenza.
+Vedere http://asciidoctor.org/docs/user-manual/["Manuale utente di AsciiDoctor"^] per ulteriore assistenza.
 
 
 
@@ -147,7 +147,7 @@ _alt text_ indica testo alternativo. Descrive l'immagine visualizzata sulla pagi
 Due note:
 
 . È meglio racchiudere il testo alt tra virgolette perché la punteggiatura come le virgole può influire sulla capacità di trasformare il contenuto da AsciDoc a HTML.
-. Il https://["Documentazione di AsciiDoctor"^] indicare che _immagini a blocchi_ devono essere in linea con _due_ due punti: `image::file.png`
+. Il https://docs.asciidoctor.org/asciidoc/latest/macros/images/["Documentazione di AsciiDoctor"^] indicare che _immagini a blocchi_ devono essere in linea con _due_ due punti: `image::file.png`
 +
 Tuttavia, preferiamo utilizzare i due punti, come illustrato in precedenza. L'utilizzo di due punti ha lo stesso risultato e funziona meglio con i nostri strumenti interni.
 
@@ -319,12 +319,12 @@ Di seguito viene riportata la sintassi per una tabella di base:
 | row 2 column 1 | row 2 column 2
 |===
 ....
-Esistono _molti_ modi per formattare una tabella. Fare riferimento a. https://["Manuale utente di AsciiDoctor"^] per ulteriore assistenza.
+Esistono _molti_ modi per formattare una tabella. Fare riferimento a. https://asciidoctor.org/docs/user-manual/#tables["Manuale utente di AsciiDoctor"^] per ulteriore assistenza.
 
 
 TIP: Se una cella contiene contenuti formattati come elenchi puntati, si consiglia di aggiungere una "a" nell'intestazione della colonna per abilitare la formattazione. Ad esempio: [Cols="2,2,4a" options="header"]
 
-https://["Per ulteriori esempi di tabelle, consultare la Guida di riferimento rapido alla sintassi di AsciiDoc"^].
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables["Per ulteriori esempi di tabelle, consultare la Guida di riferimento rapido alla sintassi di AsciiDoc"^].
 
 
 
@@ -485,7 +485,7 @@ Se hai un pezzo di contenuto che viene ripetuto in diverse pagine, puoi scriverl
 
 . Creare una cartella nel repository denominata _include
 +
-https://["Ad esempio, date un'occhiata al repository Cloud Tiering"^].
+https://github.com/NetAppDocs/cloud-tiering["Ad esempio, date un'occhiata al repository Cloud Tiering"^].
 
 . Aggiungere un file .adoc nella cartella che includa il contenuto che si desidera riutilizzare.
 +
@@ -512,4 +512,4 @@ Ad esempio:
 
 È tutto!
 
-Per ulteriori informazioni sulla direttiva include, https://["Consultare il manuale utente di AsciiDoctor"^].
+Per ulteriori informazioni sulla direttiva include, https://asciidoctor.org/docs/user-manual/#include-directive["Consultare il manuale utente di AsciiDoctor"^].

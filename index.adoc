@@ -48,9 +48,9 @@ Se il lead del contenuto accetta che il tuo suggerimento può migliorare il cont
 TIP: Tutti i commenti forniti sono pubblicamente visibili. Chiunque si acceda ai problemi nel repo GitHub può vedere i tuoi commenti.
 
 .Fasi
-. Se non disponi già di un account GitHub, https://["crearne uno da github.com"^].
+. Se non disponi già di un account GitHub, https://github.com/join["crearne uno da github.com"^].
 . Accedi al tuo account GitHub.
-. Utilizzando il browser Web, aprire la pagina su https://["docs.netapp.com"] ciò è correlato al tuo feedback.
+. Utilizzando il browser Web, aprire la pagina su https://docs.netapp.com["docs.netapp.com"] ciò è correlato al tuo feedback.
 . Nella parte destra della pagina, fare clic su *Richiedi modifiche al documento*.
 +
 image:screenshot-request-doc-changes.png["Richiedi modifiche al documento"]
@@ -90,9 +90,9 @@ Se hai bisogno di aiuto con il nostro stile di scrittura o la sintassi di origin
 
 
 .Fasi
-. Se non disponi già di un account GitHub, https://["crearne uno da github.com"^].
+. Se non disponi già di un account GitHub, https://github.com/join["crearne uno da github.com"^].
 . Accedi al tuo account GitHub.
-. Utilizzando il browser Web, aprire la pagina su https://["docs.netapp.com"] che si desidera modificare.
+. Utilizzando il browser Web, aprire la pagina su https://docs.netapp.com["docs.netapp.com"] che si desidera modificare.
 . Sul lato destro della pagina, fare clic su *Modifica questa pagina*.
 +
 image:screenshot-edit-this-page.png["Modificare questa pagina"]

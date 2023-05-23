@@ -108,8 +108,8 @@ Inizia con ciò che è importante per l'utente. Scopri cosa sta cercando di fare
 La maggior parte delle persone è un'attività di apprendimento visivo. Utilizza video, diagrammi e screenshot per migliorare l'apprendimento. La grafica aiuta anche a suddividere blocchi di testo.
 
 .Esempi
-* https://["Esempio n. 1"^]
-* https://["Esempio n. 2"^]
+* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html["Esempio n. 1"^]
+* https://docs.netapp.com/us-en/occm/task_getting_started_azure.html["Esempio n. 2"^]
 
 
 Vedere anche <<grafica>>.
@@ -121,8 +121,8 @@ Vedere anche <<grafica>>.
 Utilizzare intestazioni, elenchi e tabelle per aiutare gli utenti a cercare ciò che desiderano.
 
 .Esempi
-* https://["Esempio n. 1"^]
-* https://["Esempio n. 2"^]
+* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Esempio n. 1"^]
+* https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html["Esempio n. 2"^]
 
 
 
@@ -132,8 +132,8 @@ Utilizzare intestazioni, elenchi e tabelle per aiutare gli utenti a cercare ciò
 Se stai descrivendo come completare una serie di attività, mettila su un'unica pagina in una serie di sezioni, incluse informazioni concettuali e di riferimento. Non suddividere la pagina in diverse mini pagine, che richiedono un clic eccessivo. Allo stesso tempo, non creare pagine lunghe e intimidenti. USA il tuo giudizio migliore per decidere quando una pagina è troppo lunga.
 
 .Esempi
-* https://["Esempio n. 1"^]
-* https://["Esempio n. 2"^]
+* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Esempio n. 1"^]
+* https://docs.netapp.com/us-en/occm/concept_ha.html["Esempio n. 2"^]
 
 
 
@@ -200,9 +200,9 @@ USA la voce passiva quando:
 
 Per ulteriori convenzioni sui verbi, vedere:
 
-* https://["Microsoft Writing Style Guide"^]
-* https://["Manuale di stile di Chicago"^]
-* https://["Merriam-Webster Dictionary Online"^]
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
+* https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
+* https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
 
 
 
@@ -375,9 +375,9 @@ Valuta continuamente i contenuti per le opportunità in modo da includere illust
 
 Se non diversamente specificato, seguire le convenzioni di grammatica, punteggiatura e ortografia descritte in:
 
-* https://["Microsoft Writing Style Guide"^]
-* https://["Manuale di stile di Chicago"^]
-* https://["Merriam-Webster Dictionary Online"^]
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
+* https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
+* https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
 
 
 
@@ -494,8 +494,8 @@ Vedere <<ammonizioni>> per altre etichette che identificano il contenuto separat
 * Se una frase contiene una combinazione di numeri inferiori a 10 e superiori a 10, utilizzare i numeri arabi per tutti i numeri.
 * Per ulteriori convenzioni numeriche, vedere:
 +
-** https://["Microsoft Writing Style Guide"^]
-** https://["Manuale di stile di Chicago"^]
+** https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
+** https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
 
 
 
@@ -548,9 +548,9 @@ Mantieni la semplicità. In generale, maggiore è la punteggiatura inclusa in un
 * Limitare l'uso di punti e virgola e punti e virgola.
 * Se non diversamente specificato, seguire le convenzioni di grammatica, punteggiatura e ortografia descritte in:
 +
-** https://["Microsoft Writing Style Guide"^]
-** https://["Manuale di stile di Chicago"^]
-** https://["Merriam-Webster Dictionary Online"^]
+** https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
+** https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
+** https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
 
 
 
@@ -567,9 +567,9 @@ Utilizzare "da" per indicare un intervallo di tempo. Non utilizzare "da" per ind
 
 Se non diversamente specificato, seguire le convenzioni di grammatica, punteggiatura e ortografia descritte in:
 
-* https://["Microsoft Writing Style Guide"^]
-* https://["Manuale di stile di Chicago"^]
-* https://["Merriam-Webster Dictionary Online"^]
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
+* https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
+* https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
 
 
 
@@ -594,7 +594,7 @@ Vedere <<ammonizioni>> per altre etichette che identificano il contenuto separat
 
 === marchi
 
-Non includiamo i simboli dei marchi nella maggior parte dei contenuti tecnici, perché le dichiarazioni legali nei nostri modelli sono sufficienti. Tuttavia, durante l'utilizzo, seguiamo tutte le regole di utilizzo https://["Termini con marchio NetApp"^]:
+Non includiamo i simboli dei marchi nella maggior parte dei contenuti tecnici, perché le dichiarazioni legali nei nostri modelli sono sufficienti. Tuttavia, durante l'utilizzo, seguiamo tutte le regole di utilizzo https://www.netapp.com/us/legal/netapptmlist.aspx["Termini con marchio NetApp"^]:
 
 * Utilizzare i termini con marchio (con o senza il simbolo) solo come aggettivi, mai come sostantivi, verbi o verbali.
 * Non abbreviare, sillabare o mettere in corsivo i termini dei marchi.
