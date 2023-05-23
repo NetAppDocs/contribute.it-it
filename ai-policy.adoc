@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: ai-policy.html 
+---
+= Policy che proibisce l'utilizzo di contenuti generati dall'ai nella documentazione tecnica di NetApp
+:toc: macro
+:hardbreaks:
+:allow-uri-read: 
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+In NetApp, diamo valore all'esperienza dei nostri dipendenti, appaltatori e partner nella creazione, pubblicazione e manutenzione di documentazione tecnica utile, pertinente e accurata per i nostri clienti. Riteniamo che l'utilizzo di contenuti generati dall'ai possa compromettere questi valori e compromettere l'integrità e l'accuratezza della nostra documentazione. Pertanto, la politica di NetApp prevede di proibire la pubblicazione di contenuti generati dall'ai non verificati e validati da un essere umano. Ciò vale per tutta la documentazione tecnica pubblicata su docs.netapp.com. Si noti che questa policy è simile ed estende la policy di NetApp che vieta l'utilizzo di modelli di lingue per scrivere codice per i prodotti venduti.
+
+Ci aspettiamo che tutti i collaboratori di NetAppDocs rispettino la seguente policy:
+
+* Non consentiamo la pubblicazione della documentazione rivolta ai clienti (come utilizzare i prodotti NetApp) generata dall'ai senza revisione e validazione umana. Ciò include materiale scritto, grafica, multimedia o altro materiale pubblicato su docs.netapp.com. Tutti i contenuti pubblicati su docs.netapp.com devono essere verificati e validati dai creatori di contenuti umani.
+* Parte del ruolo di creator di contenuti per docs.netapp.com implica l'adesione allo stile e alle guide dei collaboratori. Ciò include il rimanere informati sugli ultimi sviluppi dei contenuti generati dall'ai e sulle loro implicazioni per la documentazione tecnica di NetApp.
+* Tutti i dipendenti, gli appaltatori e i partner sono tenuti a rispettare la policy. Violazioni ripetute possono comportare la sospensione dei privilegi di authoring.
+
+
+I collaboratori di NetAppDocs devono tenere a mente quanto segue:
+
+* Tutte le tecnologie di generazione dei contenuti basate sull'ai integrate nel software installato sul computer di lavoro, incluse quelle come Microsoft 365 Co-pilot, inviano i dati all'azienda che ospita la tecnologia di assistenza. Non richiedere tale tecnologia con contenuti aziendali riservati, incluse, a titolo esemplificativo ma non esaustivo, le specifiche relative alle funzionalità dei prodotti non ancora rilasciate.
+* Non utilizzare le tecnologie ai pubbliche per generare o modificare la documentazione tecnica di prodotti, versioni di prodotti o funzionalità non rilasciate in precedenza.
+* Il copyright per la nuova documentazione tecnica deve rimanere all'interno di NetApp e non essere condiviso con AIS al di fuori di NetApp prima delle date di rilascio dei prodotti ufficiali e della corrispondente pubblicazione della documentazione tecnica correlata.
+* Non inviare documenti confidenziali, nuovi contenuti o qualsiasi contenuto scritto dopo il 2021, compresi gli URL, all'ai (ChatGPT o qualsiasi altro strumento). Tutte le informazioni inserite in ChatGPT diventano parte del set di dati di training, che a sua volta diventa proprietà di OpenAI e possono essere utilizzate da loro e dai loro utenti. Sebbene gran parte di questi dati sia accessibile pubblicamente, non vogliamo formare il modello sul nostro IP.
+
