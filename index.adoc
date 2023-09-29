@@ -23,19 +23,22 @@ La documentazione per i prodotti e i servizi NetApp è open source. Ciò consent
 
 Puoi contribuire ai nostri documenti utilizzando le seguenti opzioni:
 
-* Fare clic su *Richiedi modifiche al documento* per inviare un feedback generale o per porre una domanda sul contenuto. Il responsabile dei contenuti NetApp esamina quindi la tua richiesta per determinare quali modifiche sono necessarie per i documenti. Questa è l'opzione più comune.
+* Seleziona *Richiedi modifiche alla documentazione* per inviare un feedback generale o per porre una domanda sul contenuto. Il responsabile dei contenuti NetApp esamina quindi la tua richiesta per determinare quali modifiche sono necessarie per i documenti. Questa è l'opzione più comune.
 +
 <<Richiedi modifiche al documento,Visualizza le istruzioni dettagliate per questa opzione>>.
 
-* Fare clic su *Modifica questa pagina* per modificare direttamente il contenuto. Il responsabile dei contenuti NetApp esamina quindi le modifiche e le unisce.
+* Seleziona *Modifica questa pagina* per modificare direttamente il contenuto. Il responsabile dei contenuti NetApp esamina quindi le modifiche e le unisce.
 +
 <<Inviare le modifiche ai documenti,Visualizza le istruzioni dettagliate per questa opzione>>.
 
 
 
-Il seguente video mostra come utilizzare queste opzioni di contribuzione. È inoltre possibile scorrere verso il basso per leggere le istruzioni scritte.
+Il video seguente fornisce una breve panoramica di queste due opzioni:
 
-video::0A-xQJaDkco[youtube,width=848,height=480]
+.Panoramica del contributo al docs.netapp.com
+video::37b6207f-30cd-4517-a80a-b08a0138059b[panopto]
+Le sezioni seguenti forniscono istruzioni dettagliate.
+
 
 
 == Richiedi modifiche al documento
@@ -48,30 +51,30 @@ Se il lead del contenuto accetta che il tuo suggerimento può migliorare il cont
 TIP: Tutti i commenti forniti sono pubblicamente visibili. Chiunque si acceda ai problemi nel repo GitHub può vedere i tuoi commenti.
 
 .Fasi
-. Se non disponi già di un account GitHub, https://github.com/join["crearne uno da github.com"^].
+. Se non disponi già di un account GitHub, https://github.com/join["crearne uno da github.com"^]
 . Accedi al tuo account GitHub.
 . Utilizzando il browser Web, aprire la pagina su https://docs.netapp.com["docs.netapp.com"] ciò è correlato al tuo feedback.
-. Nella parte destra della pagina, fare clic su *Richiedi modifiche al documento*.
+. Nella parte superiore della pagina, selezionare *Suggerisci modifiche > Richiedi modifiche doc*.
 +
 image:screenshot-request-doc-changes.png["Richiedi modifiche al documento"]
 
 +
 Si apre una nuova scheda del browser con un modulo che puoi utilizzare per fornire dettagli al nostro team di documentazione.
 
-. Inserisci un titolo e fornisci i dettagli della richiesta.
+. Immettere un titolo, un riepilogo e riconoscere che il problema non contiene informazioni riservate.
 +
-Il campo dei commenti contiene il titolo e l'URL della pagina. Non eliminare queste informazioni perché saranno necessarie per comprendere la tua richiesta.
+Il modulo è precompilato con l'URL e il titolo della pagina. Non eliminare queste informazioni perché saranno necessarie per comprendere la tua richiesta.
 
 +
 image:screenshot-submit-new-issue.png["Inviare un nuovo numero"]
 
-. Fare clic su *Invia nuovo problema* per creare un problema per la richiesta.
+. Selezionare *Invia nuovo problema* per creare un problema per la richiesta.
 
 
 .Al termine
 L'apertura di un problema consente la collaborazione attraverso i commenti di GitHub. Riceverai notifiche via email in base alle preferenze indicate nelle impostazioni del tuo account GitHub.
 
-Puoi anche visualizzare lo stato della richiesta facendo clic su *problemi* sul banner in alto accanto alla casella di ricerca di GitHub:
+È inoltre possibile visualizzare lo stato della richiesta selezionando *problemi* dal banner GitHub:
 
 image:screenshot-issues.png["Scheda problemi"]
 
@@ -90,43 +93,38 @@ Se hai bisogno di aiuto con il nostro stile di scrittura o la sintassi di origin
 
 
 .Fasi
-. Se non disponi già di un account GitHub, https://github.com/join["crearne uno da github.com"^].
+. Se non disponi già di un account GitHub, https://github.com/join["crearne uno da github.com"^]
 . Accedi al tuo account GitHub.
 . Utilizzando il browser Web, aprire la pagina su https://docs.netapp.com["docs.netapp.com"] che si desidera modificare.
-. Sul lato destro della pagina, fare clic su *Modifica questa pagina*.
+. Nella parte superiore della pagina, selezionare *Suggerisci modifiche > Modifica questa pagina*.
 +
 image:screenshot-edit-this-page.png["Modificare questa pagina"]
 
-. Fare clic sull'icona a forma di matita.
+. Selezionare l'icona a forma di matita.
 +
 image:screenshot-pencil-icon.png["Icona a forma di matita"]
 
+. Se ti viene richiesto di creare un fork del repository, seleziona *fork this repository*.
 . Modificare il contenuto.
 +
-Il contenuto è scritto in AsciiDoc, un linguaggio di markup leggero. Se hai bisogno di aiuto, link:asciidoc_syntax.html["Fare clic qui per ulteriori informazioni sulla sintassi di AsciiDoc"].
+Il contenuto è scritto in AsciiDoc, un linguaggio di markup leggero. link:asciidoc_syntax.html["Informazioni sulla sintassi di AsciDoc"].
 
-. Per confermare le modifiche, scorri la pagina e compila il modulo:
+. Per confermare le modifiche, seleziona *Conferma modifiche* e compila il modulo:
 +
-.. Inserire un titolo e una descrizione facoltativa.
-.. Selezionare *Crea un nuovo ramo per questo commit e avvia una richiesta pull*.
-.. Fare clic su *Proponi modifiche*.
-+
-GitHub inserisce automaticamente il nome di una filiale (ad esempio _username-patch-n_) per la modifica.
-
+.. Se si desidera, modificare il messaggio di conferma predefinito.
+.. Aggiungere una descrizione facoltativa.
+.. Selezionare *Proponi modifiche*.
 +
 image:screenshot-propose-change.png["Proporre la modifica del file"]
 
 
 
-. Fornire un commento sulla modifica effettuata, quindi fare clic su *Create pull request* (Crea richiesta pull).
-+
-image:screenshot-create-pull-request.png["Creare una richiesta pull"]
-
+. Selezionare *Crea richiesta pull*.
 
 
 .Al termine
 Dopo aver proposto le modifiche, le esamineremo, apporta le modifiche necessarie e le uniremo al repository di GitHub.
 
-Per visualizzare lo stato della richiesta pull, fare clic su *richiesta pull* sul banner superiore accanto alla casella di ricerca di GitHub:
+È possibile visualizzare lo stato della richiesta pull selezionando *richieste pull* dal banner GitHub:
 
 image:screenshot-view-pull-requests.png["Scheda di richiesta pull"]

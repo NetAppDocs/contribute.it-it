@@ -28,22 +28,16 @@
   <block id="88c3dc92387f534cb0d262ec1e8f1bb2" category="doc">Guida di stile per documenti NetApp</block>
   <block id="e2d0dae9d76032e451e39d8e99304566" category="paragraph">Il nostro stile è colloquiale ed empatico, ma siamo sempre professionali e ci mettiamo al punto. Seguire queste linee guida per la scrittura dei contenuti per i documenti NetApp.</block>
   <block id="99cadf0b9e522abf385884bbba7ba292" category="section-title">Scrivere in maniera conversa</block>
-  <block id="a50fac6c5f3dd2cb4730087ea54252bf" category="paragraph">Scrivete come parlate quando spiegate qualcosa a un collega professionale. Scrivere in un tono di conversazione ti aiuta a entrare in contatto con il tuo pubblico.</block>
   <block id="7d0edd1178aac4fd80f275d473a2bbba" category="admonition">Leggi la tua scrittura ad alta voce. Come ha affermato Elmore Leonard, romanziere e sceneggiatore americano, "se suona come scrivere, lo riscrivo".</block>
   <block id="14162950f27b607637ed0c3681ea338c" category="cell">Troppo formale</block>
   <block id="706ee9fc99a081223cc401929741a52a" category="cell">Troppo casuale</block>
   <block id="e3d632fe289ec28c552b21075d04a8fc" category="cell">Il nostro stile</block>
   <block id="e79230b3b0562e674e6294e0554d48d4" category="cell">Se si verificano problemi con il Cloud Tiering, è possibile visualizzare lo stato di salute sul pannello di controllo del cluster per determinare il motivo dell'errore. Lo stato di salute riflette lo stato del sistema ONTAP e di Service Connector.</block>
-  <block id="38eaae780dedf233f8b16537af9bf66f" category="cell">Non è divertente quando si verificano errori. Non preoccuparti, consulta la dashboard del cluster per scoprire cosa è successo e cosa ne è interessato.</block>
-  <block id="4203483b917dd9616ff240c282ea3de2" category="cell">In caso di guasto, il Cloud Tiering visualizza lo stato di salute "Failed" (non riuscito) sul pannello di controllo del cluster. Visualizzare lo stato per ottenere informazioni sull'errore.</block>
   <block id="09083b2e235c493fdbe1bd76c4fc1759" category="cell">Puoi pagare per il tiering del cloud in diversi modi. Puoi pagare il tiering cloud tramite un abbonamento pay-as-you-go, puoi pagare tramite una licenza di tiering ONTAP o pagando tramite una combinazione di entrambi. Non puoi ottenere licenze da Cloud Manager, devi accedere direttamente al servizio Cloud Tiering per configurarlo.</block>
-  <block id="2019b14ea1228e2750567a5a10b6082b" category="cell">Abbiamo tre modi per pagare il tiering cloud. Un abbonamento pay-as-you-go, naturalmente, ma anche una licenza di tiering ONTAP, o anche una combinazione di entrambi. Ma non puoi ottenere licenze da Cloud Manager, quindi vai direttamente al servizio Cloud Tiering per configurarlo.</block>
-  <block id="2293c6f5616ca3c3739756e3ba4335f3" category="cell">Paga il Tier cloud con un abbonamento pay-as-you-go, una licenza di tiering ONTAP o una combinazione di entrambi. Le licenze non sono disponibili in Cloud Manager, ma puoi accedere direttamente al servizio Cloud Tiering per configurarle.</block>
   <block id="d610c8ffc37561f4634a190387a5f3b6" category="cell">Prima di eseguire il provisioning dello storage, è necessario individuare il cluster ONTAP da Cloud Manager. Una volta completato il rilevamento, è necessario aprire l'ambiente di lavoro per eseguire il provisioning dello storage.</block>
   <block id="17b767c95630dcda77217ed5b3e18485" category="cell">Tutto ciò che fai è scoprire il tuo cluster ONTAP da Cloud Manager, quindi aprire l'ambiente di lavoro per iniziare il provisioning dello storage. Facile!</block>
   <block id="a8e0043a624da44dc1444007f03701d9" category="cell">Dopo aver scoperto il cluster ONTAP da Cloud Manager, apri l'ambiente di lavoro per eseguire il provisioning dello storage.</block>
   <block id="e7d907ab95696d826dd2c779e9e54c9f" category="cell">Analizzare gli attributi di benessere del sistema di storage in due modi, a seconda di ciò che si desidera analizzare: Selezionare il widget degli attributi di benessere sulla dashboard oppure selezionare Visualizza tutto per visualizzare l'intero elenco degli attributi di benessere.</block>
-  <block id="4dbdef08a39727e79d1de0ea347e493d" category="cell">Esistono due modi per analizzare gli attributi di benessere del sistema: Basta selezionare il widget degli attributi di benessere sulla dashboard. In alternativa, se si desidera visualizzare l'intero elenco degli attributi di benessere in una vista, selezionare Visualizza tutto.</block>
   <block id="75ab0e119891809d63bcc8c56b8c2793" category="cell">Selezionare il widget degli attributi di benessere nella dashboard o selezionare Visualizza tutto per visualizzare l'elenco di tutte le azioni e i rischi.</block>
   <block id="7a8e71d910db3b72c9392f6de16c626b" category="cell">All'avvio dell'installazione guidata, seguire le istruzioni della procedura guidata per configurare il nodo e unirlo al cluster. La procedura seguente illustra le fasi della procedura guidata.</block>
   <block id="1a06075f56c7d5e9e311fe51b475db66" category="cell">Viene visualizzata la procedura guidata di installazione (quasi come una magia), che guida l'utente attraverso il semplice processo di configurazione del nodo e di connessione al cluster.</block>
@@ -52,16 +46,13 @@
   <block id="512c554de100f0a0303aff43a4938548" category="cell">Come si desidera configurare e installare il sistema? Forniamo istruzioni in diversi formati di contenuto, ma solo tu sai come ti piace imparare.</block>
   <block id="5c95199f716f82b32872292114a229c6" category="cell">Scegliere un tipo di formato di contenuto che guidi l'utente nell'installazione e nella configurazione del sistema.</block>
   <block id="a6cf0a00702e536a363628733d5213a4" category="section-title">Scrivete semplicemente</block>
-  <block id="b298933aad8731ee717027872a8dabf8" category="paragraph">Evitare parole grandi e confuse. Mantieni la semplicità. Stai spiegando qualcosa a un collega professionista, senza mostrare il tuo vocabolario.</block>
   <block id="724de70f821b15b77c199ba6c3c78a52" category="paragraph">**Invece di questo**: "Dissociare l'utente dal tuo account NetApp Cloud Central".</block>
   <block id="4ce32d6ad30ddad687a9afb502393612" category="paragraph">**Eseguire questa operazione**: "Rimuovere l'utente dal proprio account NetApp Cloud Central".</block>
   <block id="33d3bee5bdc5b545c2ff65c8aae964bc" category="section-title">Scrivere in maniera minima</block>
-  <block id="38001d100fec2d1dcdfc105a2ae60826" category="paragraph">Frasi brevi e semplici semplificano la lettura o la scansione dei contenuti. È possibile utilizzare una frase più lunga ogni tanto, ma seguirla con una più breve. Così.</block>
   <block id="277b7e6928cc03b89a034957458a45da" category="paragraph">**Invece di questo**: "Per replicare i dati tra un sistema Cloud Volumes ONTAP in AWS e i sistemi ONTAP in altre reti, è necessario disporre di una connessione VPN tra Amazon VPC e l'altra rete, ad esempio Azure VNET o la rete aziendale."</block>
   <block id="82cbaceb5cc1b3b8f540b9fdf3f6ce57" category="paragraph">**Eseguire questa operazione**: "La replica dei dati tra le reti richiede una connessione tramite VPN. Ad esempio, tra Amazon VPC e la rete aziendale o tra AWS e Azure".</block>
   <block id="d96895205deeecea5fd74faa492c18cc" category="paragraph">Vedere anche <block ref="8cb72eb8cdc2204aae415c32d9befda5" category="inline-xref-macro-rx"></block>.</block>
   <block id="8e7628e7047272997974cb838b8802bb" category="section-title">Scrivere attivamente</block>
-  <block id="18e434c4fc4101ee7ce1f57f64538979" category="paragraph">Evitare la voce passiva è una regola standard per la scrittura tecnica, ma è particolarmente importante utilizzare la voce attiva quando si desidera ascoltare la conversazione.</block>
   <block id="e7f1238ab8b35c783b4369d921ea7697" category="paragraph">**Invece di questo**: "Le autorizzazioni necessarie devono essere fornite prima di implementare il primo cluster".</block>
   <block id="de3a57bf9669fa7f4f6095f285c91a30" category="paragraph">**Eseguire questa operazione**: "Fornire le autorizzazioni necessarie prima di implementare il primo cluster".</block>
   <block id="24cceca19bc255113b993d523dbb1606" category="paragraph">Vedere anche <block ref="7bec9538d082ed3ef031877eda02f047" category="inline-xref-macro-rx"></block>.</block>
@@ -70,7 +61,6 @@
   <block id="d658c6f2741d4739bd62749a7c146725" category="paragraph">Durante la creazione di contenuti per i prodotti NetApp, evitare linguaggi che possano essere interpretati come degradanti, razzisti, sessisti o altrimenti oppressivi. Utilizza invece un linguaggio accessibile e accogliente per tutti coloro che hanno bisogno di utilizzare la documentazione. Ad esempio, invece di "master/slave", utilizzare "primario/secondario".</block>
   <block id="c0453e84074ee6c764cfff4036e7a5c6" category="paragraph">Sappiamo che dobbiamo lavorare per rimuovere tutta la lingua non inclusa dalla nostra documentazione e dai nostri prodotti. Stiamo lavorando attivamente ai nostri standard e alle nostre Best practice e prevediamo di aggiornare questa sezione con ulteriori indicazioni in futuro.</block>
   <block id="4b836daed67a5f68f01caa4387d2997b" category="section-title">Arrivare al punto</block>
-  <block id="13d17bb08bd45206448047778da1b7f1" category="paragraph">Inizia con ciò che è importante per l'utente. Scopri cosa sta cercando di fare l'utente e concentrati sull'assistenza per il raggiungimento di tale obiettivo.</block>
   <block id="32c2a7211a973f6ee77acc3d1be224e6" category="paragraph">**Invece di questo**: "Cloud Sync può sincronizzare i dati da un server NFS a un altro server NFS utilizzando la crittografia data-in-flight. La crittografia dei dati può essere utile se si dispone di policy di sicurezza rigorose per il trasferimento dei dati sulle reti".</block>
   <block id="1aa40d7589b9dc222cf6a6724ee49913" category="paragraph">**Fate questo**: "Se la vostra azienda ha policy di sicurezza rigorose, utilizzate la crittografia data-in-flight per sincronizzare i dati tra server NFS in reti diverse".</block>
   <block id="a361775444b7090a1bfe12fd4cbcfa6d" category="section-title">Utilizza molti elementi visivi</block>
@@ -86,9 +76,7 @@
   <block id="7aa31077b5ec51459df6b7f159c11f4a" category="list-text"><block ref="7aa31077b5ec51459df6b7f159c11f4a" category="inline-link-rx"></block></block>
   <block id="47945a33d278a568329ca94149c9de10" category="list-text"><block ref="47945a33d278a568329ca94149c9de10" category="inline-link-rx"></block></block>
   <block id="48b0365b286aecd7e2fa7fad18b782c3" category="section-title">Concentrarsi su un obiettivo dell'utente o su un aspetto specifico di tale obiettivo</block>
-  <block id="4e343630a75c3e40f896bf1b3949e932" category="paragraph">Se stai descrivendo come completare una serie di attività, mettila su un'unica pagina in una serie di sezioni, incluse informazioni concettuali e di riferimento. Non suddividere la pagina in diverse mini pagine, che richiedono un clic eccessivo. Allo stesso tempo, non creare pagine lunghe e intimidenti. USA il tuo giudizio migliore per decidere quando una pagina è troppo lunga.</block>
   <block id="bbd886ca20f28831914094c490a3750a" category="list-text"><block ref="bbd886ca20f28831914094c490a3750a" category="inline-link-rx"></block></block>
-  <block id="80919881084bfcbd235a91900f343911" category="section-title">Organizzare il contenuto in base all'obiettivo dell'utente</block>
   <block id="efec69bedd6bf6180648cc5205533500" category="paragraph">Aiuta gli utenti a trovare le informazioni di cui hanno bisogno quando ne hanno bisogno. Inserirli e disinserirli nei documenti il più rapidamente possibile, organizzando i contenuti come segue:</block>
   <block id="c7c09212616a4a2622a565139e7747b4" category="list-text">La prima voce nella navigazione a sinistra (livello alto)</block>
   <block id="5897a788a4b61495b4004511efbbbdca" category="list-text">Organizzare i contenuti in base agli obiettivi che l'utente sta cercando di raggiungere. Ad esempio, per iniziare o per proteggere i dati.</block>
@@ -109,9 +97,6 @@
   <block id="e7c58fb2c1e9e7aeaf7a80bc212c873e" category="list-text">Evita gergo, colloquialismi e metafore.</block>
   <block id="57767c4e6018050031f1ad01a5fb80c4" category="list-text">Evitare esempi non tecnici.</block>
   <block id="dd13126a02977b1e5fa5494f561a633f" category="list-text">Evitare di utilizzare ritorni a capo rigidi e spaziatura.</block>
-  <block id="cf69f9e6df2c429e1272656be751b491" category="list-text">Non usare umorismo o ironia.</block>
-  <block id="2969189a292b348bb185765b8fd945e2" category="list-text">Non utilizzare contenuti discriminatori.</block>
-  <block id="21a8b957c78ffc7ccd09aaad0b47c584" category="list-text">Non utilizzare un linguaggio di genere a meno che non si stia scrivendo per una persona specifica.</block>
   <block id="16d11ee29f6f290bcb8babae3728286f" category="section-title">Linee guida dalla a alla Z</block>
   <block id="9fdb82acade07b9103cacdcaa0d9ab74" category="section-title">voce attiva (rispetto a "voce passiva")</block>
   <block id="b9a359c8e1d57c92c8c83c4735d269c7" category="paragraph">Nella voce attiva, l'oggetto della frase è il doer dell'azione:</block>
@@ -122,9 +107,7 @@
   <block id="e43565b3dce418b9df37a2f9ccbcc4bd" category="list-text">Se il sistema non viene spento correttamente, viene visualizzato un messaggio di avviso.</block>
   <block id="2c8e117631c6f08c9039f90314fd8195" category="list-text">NetApp ha ricevuto il contratto.</block>
   <block id="9fda5fb9a772f0024a87367f5cea4555" category="paragraph">USA la voce passiva quando:</block>
-  <block id="003ceb47259c89d1527affc67a914633" category="list-text">Non sai chi o cosa ha eseguito l'azione.</block>
   <block id="c012fbf53ac9515a3c6afd27e2d55d47" category="list-text">Si desidera evitare di incolpare gli utenti per i risultati di un'azione.</block>
-  <block id="071c14989c3de25d0d36396910447945" category="list-text">Non è possibile scriverla, ad esempio per alcune informazioni sui prerequisiti.</block>
   <block id="af64200956f4064e1a823bf61e40dff2" category="paragraph">Per ulteriori convenzioni sui verbi, vedere:</block>
   <block id="00c1d9795bac737a221ed9550c76fa9c" category="inline-link">Microsoft Writing Style Guide</block>
   <block id="028b46cc7b75d3506f83fd48efbdd6ec" category="list-text"><block ref="028b46cc7b75d3506f83fd48efbdd6ec" category="inline-link-rx"></block></block>
@@ -135,7 +118,6 @@
   <block id="33f6518588649a99a675cf3b6920a297" category="section-title">ammonizioni</block>
   <block id="51081b1df080a1e17eccc89518ca8d20" category="paragraph">Utilizzare le seguenti etichette per identificare i contenuti separatamente dal flusso principale:</block>
   <block id="10de4bc81f754b19b0d27246a0589c05" category="list-text">NOTA</block>
-  <block id="13979727d586bab6e8bda11cdad7ad56" category="paragraph">Utilizzare LA NOTA per informazioni importanti che devono essere distinte dal resto del testo. Evitare di utilizzare LA NOTA per informazioni "utili da conoscere" che non sono richieste agli utenti per apprendere l'attività o completare l'attività.</block>
   <block id="1eab470a6f707b92e15040773251a746" category="list-text">SUGGERIMENTO</block>
   <block id="80de2a8faacb1711bb579e0ee9293a10" category="paragraph">USA LA PUNTA con parsimonia, se del tutto, perché la nostra policy è quella di documentare sempre le informazioni sulle Best practice per impostazione predefinita. Se necessario, utilizza IL SUGGERIMENTO per contenere informazioni sulle Best practice che aiutano gli utenti a utilizzare un prodotto o a completare una fase o un'attività in modo semplice ed efficiente.</block>
   <block id="18a970540d05e11964e25e6c04e72b53" category="list-text">ATTENZIONE</block>
@@ -145,20 +127,16 @@
   <block id="5a3a871d7d2309eb3e1156a1b1feab07" category="list-text">Utilizzare "una volta" solo per indicare "una volta".</block>
   <block id="07ccfe360dce69b84595428e2ec1c1cc" category="section-title">inoltre</block>
   <block id="06957db97049767f064edfa829e41728" category="list-text">Utilizzare "also" per indicare "in aggiunta".</block>
-  <block id="d48a5e563d03d65fabf3db8a9546bc47" category="list-text">Non utilizzare "anche" per indicare "in alternativa".</block>
   <block id="db9cdfa0cd758f90d8341ab3a5f4ff2b" category="section-title">e/o.</block>
   <block id="5b2f3b950d84523641b7e094eeec8e24" category="paragraph">Scegliere il termine più preciso, se disponibile. Se nessuno dei due termini è più preciso dell'altro, utilizzare "and/OR".</block>
   <block id="f970e2767d0cfe75876ea857f92e319b" category="section-title">come</block>
-  <block id="6a31e21ec82baa6c20bac757bffc72eb" category="paragraph">Non utilizzare "AS" per indicare "perché".</block>
   <block id="1bc7acda049c903a563634db1454818a" category="section-title">utilizzando (invece di "utilizzare" o "con")</block>
   <block id="c8142131cc29833653036fdf1342fc5f" category="list-text">Utilizzare "utilizzando" quando l'entità che sta utilizzando è l'oggetto: "È possibile aggiungere nuovi componenti al repository utilizzando il menu componenti".</block>
   <block id="a677e1f957506ca7882c7b477cfba6d5" category="list-text">È possibile iniziare una frase con "utilizzo" o "con", talvolta accettabili con i nomi dei prodotti: "Utilizzando SnapDrive, è possibile gestire dischi virtuali e copie Snapshot in un ambiente Windows".</block>
   <block id="209aa0af78a1d2f904e56e0c68cea78f" category="section-title">can (rispetto a "potrebbe", "potrebbe", "dovrebbe" o "deve")</block>
   <block id="cb220724d35d1167bbd7aefdac36544d" category="list-text">Utilizzare "CAN" per indicare la capacità: "È possibile confermare le modifiche in qualsiasi momento durante questa procedura."</block>
   <block id="eb8d13d99bb47a62875974eabf7f17a2" category="list-text">"Utilizzare "potrebbe" per indicare la possibilità: "Il download di più programmi potrebbe influire sul tempo di elaborazione"."</block>
-  <block id="1c4e024c5aa9af9183ac743eb6869ed0" category="list-text">Non utilizzare "May", il che è ambiguo perché potrebbe significare capacità o permesso.</block>
   <block id="2cc35eb381bb87884eea68b6830e3f6f" category="list-text">Utilizzare "dovrebbe" per indicare un'azione consigliata ma facoltativa. Prendere in considerazione l'utilizzo di una frase alternativa, ad esempio "consigliamo".</block>
-  <block id="dfa94a25086a223dac36e5bfddb69ab8" category="list-text">Evitare di utilizzare "must" perché è passivo. Considerare la possibilità di riaffermare il pensiero come un'istruzione utilizzando la voce imperativa. Se si utilizza "must", utilizzarlo per indicare un'azione o una condizione richiesta.</block>
   <block id="0e18a46a2b02489fafa6c6df3df6cd0e" category="section-title">capitalizzazione</block>
   <block id="b63f5554f4f480aa1ef79652ec27ee13" category="paragraph">USA la maiuscola in stile frase (minuscolo) per quasi tutto. Solo maiuscolo:</block>
   <block id="9dee471d50e8b5fed02a8a6cbbb90cea" category="list-text">La prima parola di frasi e intestazioni, comprese le intestazioni delle tabelle</block>
@@ -169,15 +147,10 @@
   <block id="b6dea776027677497d9ec4e6845882fb" category="section-title">Avvisi DI ATTENZIONE</block>
   <block id="4ad5d623c472c8819c4f6851ac9feb1a" category="paragraph">Vedere <block ref="8b099210f8d5e10883a9054cab340bdd" category="inline-xref-macro-rx"></block> per altre etichette che identificano il contenuto separatamente dal flusso di contenuto principale.</block>
   <block id="6ae8e6245174ea624fcc4a1336dd05af" category="section-title">coerenza</block>
-  <block id="d2c92861c000091d81a0411ab74d3b21" category="paragraph">"Scrivere come si parla quando si spiega qualcosa a un collega professionale" significa qualcosa di diverso per tutti. Il nostro stile di conversazione professionale ci aiuta a collegarci con gli utenti e aumenta la frequenza di piccole incoerenze tra diversi autori che hanno contribuito:</block>
-  <block id="e25398dfd5577f409da4898205f8be16" category="list-text">Concentratevi su come rendere i contenuti chiari e facili da utilizzare. Se tutto il contenuto è chiaro e facile da utilizzare, non contano piccole incoerenze.</block>
-  <block id="188004c76eeadf5c3e45ab44d5faa3bc" category="list-text">Essere coerenti all'interno della pagina che si sta scrivendo.</block>
   <block id="abd401c81b52a092eef7f29c422e5a5d" category="list-text">Seguire sempre le linee guida in <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>.</block>
   <block id="322669f84f436ca5d7fcc2d36731876a" category="section-title">contrazioni</block>
   <block id="0667b9338a10390acafe32ae7c3b1521" category="paragraph">Le contrazioni rafforzano un tono di conversazione e molte contrazioni sono facili da comprendere e tradurre.</block>
   <block id="8d4dafc6ad003b14fa5e30dbddf58fa2" category="list-text">Utilizzare contrazioni come queste, che sono facili da comprendere e tradurre:</block>
-  <block id="de50b823bbd4a96bc08ef43cb15fe379" category="cell">non lo sono</block>
-  <block id="fdd70d5503ea1b3645849f7fed4719e9" category="cell">lo sei</block>
   <block id="4de6581944a6bd25ecc90a52947add4c" category="cell">non lo è</block>
   <block id="075a959179a3ff15345c5865a10c5435" category="cell">lo siamo</block>
   <block id="f8291da3d6882dd7a1c80846efe60c1c" category="cell">non lo era</block>
@@ -185,18 +158,11 @@
   <block id="a3252eb3d0451297e8a3214fcbc9ed7f" category="cell">non lo era</block>
   <block id="3f347890f95ef75c2eacb4f01c622ac9" category="cell">andiamo</block>
   <block id="db8b923a9180129ba0052fbcd986f8b9" category="cell">non lo ha fatto</block>
-  <block id="860409e835ddff6374e51f7a60a2f61f" category="cell">(se è necessario un futuro teso)</block>
   <block id="59a7709f7ee8c9dadf75615cbe4a79cf" category="cell">non è così</block>
   <block id="3c2bb9e95fa5b8a7d4e0a0d41ad5b86f" category="cell">non lo farà (se è richiesto un futuro teso)</block>
   <block id="5970929a425637241abb7a44591e32b3" category="cell">non farlo</block>
   <block id="a4b1e16e36a349a9247d2137cac483f8" category="cell">(se è necessario un futuro teso)</block>
   <block id="fa4dcd229606d27eb80b780e6fb39231" category="list-text">Non utilizzare contrazioni come queste, difficili da comprendere e tradurre:</block>
-  <block id="22b0516e4e0a6a24068d27acc265a339" category="cell">lo faresti</block>
-  <block id="9ec050339edf939566225955c7a46050" category="cell">dovrebbe avere</block>
-  <block id="7ca6e0da2078511cbe3eb53169be8ca6" category="cell">non lo avrebbe fatto</block>
-  <block id="f4a539d06503e1f877ecb52f310cc7c3" category="cell">non dovrebbe essermi</block>
-  <block id="caa5017c91c79ca997ec48aa33e90fc9" category="cell">avrebbe potuto fare</block>
-  <block id="dbc501eb79216263386ba3cfe3cd39b4" category="cell">non si poteva</block>
   <block id="ab3eb88106f999d04a740ab008a0767b" category="section-title">verifica (rispetto a "conferma" o "verifica")</block>
   <block id="164762d67b4e5fe97d86d9a9f282ea25" category="list-text">Utilizzare "assicurarsi" per indicare "assicurarsi". Includere "che", a seconda dei casi: "Assicurarsi che vi sia spazio vuoto sufficiente intorno alle illustrazioni".</block>
   <block id="3676fe680dc352d532d7e7d2de7067e9" category="list-text">Non utilizzare mai "assicurare" per implicare una promessa o una garanzia: "Utilizzare Cloud Manager per garantire che sia possibile eseguire il provisioning di volumi NFS e CIFS su cluster ONTAP".</block>
@@ -208,7 +174,6 @@
   <block id="b3d1bd6a249a6a85c42bc5762cec6e1f" category="section-title">grammatica</block>
   <block id="6d327be841a032bf5396053a09819082" category="paragraph">Se non diversamente specificato, seguire le convenzioni di grammatica, punteggiatura e ortografia descritte in:</block>
   <block id="edddbccf5720c62aea76f84134446e73" category="section-title">in caso contrario</block>
-  <block id="f7bcb4d9c40e5093371e80d29232d20d" category="paragraph">Non utilizzare "in caso contrario" per fare riferimento alla frase precedente:</block>
   <block id="5d057fbef3fbf1f4ea61254d664eb909" category="paragraph">**Piuttosto che questo**: "Il computer dovrebbe essere spento. In caso contrario, spegnerlo."</block>
   <block id="f7374e56bb0693536626afe622146018" category="paragraph">**Eseguire questa operazione**: "Verificare che il computer sia spento."</block>
   <block id="41306d987ed3cbd9c35fe26b8ad29056" category="section-title">se (rispetto a "se" o "quando")</block>
@@ -222,9 +187,7 @@
   <block id="b3ea8b01998e78b3c2e70cc88ad4b0d5" category="list-text">Prendere in considerazione l'utilizzo della voce imperativa per sostituire la voce passiva:</block>
   <block id="84509c9c0ef2e15f9f3c90a682fb0f76" category="list-text">Evitare di utilizzare la voce imperativa per incorporare i passaggi nelle informazioni concettuali e di riferimento.</block>
   <block id="c797af56551596c24b34d61ad167502b" category="section-title">Indirizzi IP e IPv6</block>
-  <block id="cf4dbcf0b519eef649f72bb2f26667ce" category="paragraph">Per gli indirizzi IP (incluso IPv6) negli esempi, è possibile includere qualsiasi indirizzo che inizi con "10.x".</block>
   <block id="cb277327ff86def837ef04f0405c226e" category="section-title">funzionalità o release future</block>
-  <block id="3b07962f1c1c4dc7bf28b0e7e5894a84" category="paragraph">Non fare riferimento alla tempistica o al contenuto delle prossime versioni o funzionalità dei prodotti, ad eccezione di dire che una funzione o una funzione è "attualmente non supportata".</block>
   <block id="e843eeb69636fc6020ca63dad53b5ffb" category="section-title">Articoli della Knowledge base: Fare riferimento a.</block>
   <block id="8aacbd721ee842f62c002641bc604a42" category="paragraph">Se necessario, consultare gli articoli della Knowledge base di NetApp nei contenuti. Per le pagine delle risorse e il contenuto di GitHub, inserire il link nel testo in esecuzione.</block>
   <block id="e6dbca21d4865b265ca2780205b19305" category="section-title">elenchi</block>
@@ -234,7 +197,6 @@
   <block id="2338eb397c8abd6df9094da8edbe3fdf" category="list-text">Le voci dell'elenco devono essere il più possibile scannable. Evitare blocchi di testo che impedano la scansione delle voci dell'elenco.</block>
   <block id="abbf51d81adc3957b31167816443126c" category="list-text">Le voci dell'elenco devono iniziare con una lettera maiuscola e le voci dell'elenco devono essere grammaticamente parallele. Ad esempio, iniziare ogni voce con un nome o un verbo:</block>
   <block id="17de64fcb1f9b55eb373463234c451ae" category="list-text">Se tutte le voci dell'elenco sono frasi complete, terminarle con punti.</block>
-  <block id="39b94dd9d8c6008e5e0e0d194931bc90" category="list-text">Se tutte le voci dell'elenco sono frammenti di frase, non terminarle con punti.</block>
   <block id="a5b9dd23d74280fb7ba58e82cac098a5" category="list-text">Le voci dell'elenco devono essere ordinate in modo logico, ad esempio in ordine alfabetico o cronologico.</block>
   <block id="0662a73e1733968abaea58a21d0e7d99" category="section-title">localizzazione</block>
   <block id="b3d4c2782746a809f3e060ca4df45342" category="paragraph">Vedere <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>.</block>
@@ -266,7 +228,6 @@
   <block id="12b631fee9688baf4ba19b15eb1b9c4a" category="list-text">Fase: "Fornire le autorizzazioni necessarie per implementare il primo cluster".</block>
   <block id="af3162878fb6cb3441b612fc24d1b4c9" category="section-title">precedente (rispetto a "precedente", "precedente" o "precedente")</block>
   <block id="9758d401c21b103ae3b3d6a0298a62b1" category="list-text">Se possibile, sostituire "precedente" con "precedente".</block>
-  <block id="7effb64d7843e7c28ac29184b711fbe5" category="list-text">Se non è possibile utilizzare "prima", utilizzare "precedente" come aggettivo per fare riferimento a qualcosa che si è verificato in precedenza o con un ordine di importanza più elevato.</block>
   <block id="c96fcf3c64cb5227a1879dda06698dd6" category="list-text">Utilizzare "precedente" per indicare un evento verificatosi in un momento non specificato in precedenza.</block>
   <block id="883ff354ec6bc47d0be7d29cb8c8423c" category="list-text">Utilizzare "precedente" per indicare qualcosa che si è verificato immediatamente prima.</block>
   <block id="9ac6d441030eb0844ffb83ba4f100c94" category="section-title">punteggiatura</block>
@@ -274,7 +235,6 @@
   <block id="2182d64dc233fbc158d44298889d9f56" category="list-text">Utilizzare una virgola seriale (virgola Oxford) prima della combinazione ("e" o "o") in un elenco di tre o più elementi.</block>
   <block id="0d04ba12e7e714d951125d0424b0ff70" category="list-text">Limitare l'uso di punti e virgola e punti e virgola.</block>
   <block id="50324905c471f3d4d61f7d3f723f3644" category="section-title">da</block>
-  <block id="c9ab9b1734a90fc3a6b9b87d9aabaf55" category="paragraph">Utilizzare "da" per indicare un intervallo di tempo. Non utilizzare "da" per indicare "perché".</block>
   <block id="fe8ec90a5524db5c338d82b17517dcdb" category="section-title">ortografia</block>
   <block id="da01f0261195de207a317ade84c7ce2a" category="section-title">questo (rispetto a "quale" o "chi")</block>
   <block id="9901f54d0e3e057debd17f5d8f8e5c04" category="list-text">Utilizzare "that" (senza una virgola finale) per introdurre le clausole necessarie affinché la frase abbia senso.</block>
@@ -284,32 +244,22 @@
   <block id="bf611303b2be9960071c292c79b44a34" category="section-title">Informazioni SUI SUGGERIMENTI</block>
   <block id="3d5cfd3d5e627e33b27fadb6b405a1dd" category="section-title">marchi</block>
   <block id="e273e00cc1e1e5b94a098e24137cf85e" category="inline-link">Termini con marchio NetApp</block>
-  <block id="a21f9a3a9f34f12ba952d46e928679fd" category="paragraph">Non includiamo i simboli dei marchi nella maggior parte dei contenuti tecnici, perché le dichiarazioni legali nei nostri modelli sono sufficienti. Tuttavia, durante l'utilizzo, seguiamo tutte le regole di utilizzo<block ref="2e2a247b84825e1844201424214689d3" category="inline-link-rx"></block>:</block>
   <block id="20771c4637e265828d5e2a091ea4c61b" category="list-text">Utilizzare i termini con marchio (con o senza il simbolo) solo come aggettivi, mai come sostantivi, verbi o verbali.</block>
-  <block id="1633071dc1a74c21f19f086be4f91780" category="list-text">Non abbreviare, sillabare o mettere in corsivo i termini dei marchi.</block>
-  <block id="a1e00e9673f04704b72c69d34ca8e8fe" category="list-text">Non pluralizzare i termini dei marchi. Se è richiesta una forma plurale, utilizzare il nome del marchio come aggettivo che modifica un sostantivo plurale.</block>
-  <block id="8faef2d0a92049ea443f4b932f913298" category="list-text">Non utilizzare una forma possessiva di un termine con marchio registrato. È possibile utilizzare la forma possessiva dei nomi delle società, come NetApp, quando i nomi vengono utilizzati in senso generale, piuttosto che come termini con marchio.</block>
   <block id="41d8e72b4f5f3cc4857e431dec4e269c" category="section-title">interfaccia utente</block>
   <block id="9d82d4741b1969a54d01e8bf171afc7e" category="paragraph">Fare affidamento sull'interfaccia il più possibile per guidare l'utente.</block>
   <block id="d82cb0209a5722e763aa8eb79a8868f1" category="section-title">Linee guida generali</block>
   <block id="5355febad7711fb3953aa0a70799f4a3" category="paragraph">Il nostro stile per la documentazione delle interfacce utente è semplice e minimo:</block>
   <block id="b8b563f55b69e0abca0d50aa6d8fdcc5" category="list-text">Si supponga che l'utente stia utilizzando l'interfaccia durante la lettura del contenuto.</block>
   <block id="9b63f1e2091c52c7e2a1cdd189e7a586" category="list-text">Affidati all'interfaccia per guidare l'utente:</block>
-  <block id="f5312bdeca5306d070589cf57f03b0de" category="list-text">Non guidate l'utente attraverso una procedura guidata o una schermata passo dopo passo. Indicate solo cose importanti che non sono evidenti dall'interfaccia.</block>
-  <block id="219b180f29bb4082f0a3f13fbf13627a" category="list-text">Non includere "fare clic su OK" o "fare clic su Salva" o "il volume viene creato" o qualsiasi altra cosa che sia ovvia per qualcuno che esegue l'attività.</block>
   <block id="1b8d1f910b382b0cc9563c9a6075268d" category="list-text">Presupporre il successo. A meno che non si preveda un'operazione che non abbia esito positivo per la maggior parte del tempo, non documentare il percorso di errore. Si supponga che l'interfaccia fornisca una guida adeguata.</block>
-  <block id="10fa8199a030925455c84c7a1ac5f645" category="list-text">Non utilizzare il "click". Utilizzare sempre "seleziona" perché la parola copre mouse, touch, tastiera e qualsiasi altro modo di scegliere.</block>
   <block id="cfb6729137a6d954b8da252581dd2b3a" category="list-text">Concentrate i contenuti su un flusso di lavoro che si adatta a un caso di utilizzo del cliente e su come portare l'utente nel posto giusto nell'interfaccia per avviare il flusso di lavoro.</block>
   <block id="678db84be7d1b3a0571d0bd4777deb5b" category="list-text">Documentare sempre l'unico modo migliore per raggiungere l'obiettivo dell'utente.</block>
   <block id="2e4ba66275505e14599da983d8966f0d" category="list-text">Se il flusso di lavoro richiede una decisione significativa, assicurarsi di documentare una regola decisionale.</block>
   <block id="a69f6b92d1b2cc6e712a2bb8ae42b9ce" category="list-text">Utilizzare il numero minimo di passaggi necessari per la maggior parte degli utenti.</block>
   <block id="c8ac8ac544647d0524755cbe9b3c4f13" category="section-title">Assegnare un nome agli elementi dell'interfaccia utente</block>
-  <block id="f6f6dda79f3e2b59e925c9cc39f4b8b1" category="paragraph">Evitare di documentare il livello di granularità che richiede la denominazione degli elementi dell'interfaccia utente. Affidati all'interfaccia per guidare l'utente attraverso le specifiche dell'interazione. Se è necessario ottenere questo specifico, assegnare un nome all'etichetta sull'elemento. Ad esempio, "selezionare il volume desiderato" o "selezionare ‘utilizzare il volume esistente". Non è necessario assegnare un nome ai menu o ai pulsanti di opzione o alle caselle di controllo, basta utilizzare l'etichetta.</block>
-  <block id="227d3e514604389d1db2b12eb3ed2d5a" category="paragraph">Per le icone che gli utenti devono selezionare, utilizzare un'immagine dell'icona. Non tentare di chiamarlo. Questa regola si applica alle icone come freccia, matita, ingranaggio, kabob, hamburger, e così via.</block>
   <block id="ea403515c7449c382f3a20bd19ddbd50" category="section-title">Che rappresenta le etichette visualizzate</block>
   <block id="5b078359de5ea1377775cc2c12b42a23" category="paragraph">Seguire l'ortografia e le maiuscole utilizzate dall'interfaccia utente per identificare le etichette. Se un'etichetta è seguita da ellissi, non includere i ellissi quando si assegna un nome all'oggetto. Incoraggiare gli sviluppatori a utilizzare le maiuscole in stile titolo per le etichette dell'interfaccia utente, in modo da semplificarne la scrittura.</block>
   <block id="4ef516ca2cc08cdcd670e074e779540e" category="section-title">Utilizzo di screen capture</block>
-  <block id="94d97b8df621fd69669b2aa6dfafa642" category="paragraph">Una cattura occasionale dello schermo ("screenshot") aiuta gli utenti a essere sicuri che si trovino nel posto giusto in un'interfaccia quando avviano o cambiano le interfacce durante un flusso di lavoro. Non utilizzare screen capture per mostrare i dati da inserire o il valore da selezionare.</block>
   <block id="7e98c78138dbc7722a43f387f4052b09" category="section-title">mentre (rispetto a "anche se")</block>
   <block id="feb46c67d37a04caac252d715c9e4613" category="list-text">Utilizzare "while" per indicare un evento che si verifica nel tempo.</block>
   <block id="21356e57c78537682c670e8c101a558f" category="list-text">Utilizzare "sebbene" per rappresentare un'attività che si verifica quasi contemporaneamente o poco dopo un'altra attività.</block>
@@ -321,33 +271,24 @@
   <block id="5b1673a33a3bc92200f7685076cfb382" category="paragraph">La documentazione per i prodotti e i servizi NetApp è open source. Ciò consente di contribuire al contenuto apportando miglioramenti, correzioni e suggerimenti. Tutto ciò di cui hai bisogno è un account GitHub e una piccola iniziativa.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">Panoramica</block>
   <block id="f1eb983643f08d3d76ff0c9dcdd99f9b" category="paragraph">Puoi contribuire ai nostri documenti utilizzando le seguenti opzioni:</block>
-  <block id="8cde20289ec80332bf3964328635ceb5" category="list-text">Fare clic su *Richiedi modifiche al documento* per inviare un feedback generale o per porre una domanda sul contenuto. Il responsabile dei contenuti NetApp esamina quindi la tua richiesta per determinare quali modifiche sono necessarie per i documenti. Questa è l'opzione più comune.</block>
   <block id="23d6db8a7a0210825154e8421432bd93" category="inline-xref">Visualizza le istruzioni dettagliate per questa opzione</block>
   <block id="7529a6aeec9295f2f09df129b4d04439" category="paragraph"><block ref="bdef3b81bca2a18babf456d240e884c2" category="inline-xref-macro-rx"></block>.</block>
-  <block id="f9acf8da15ab4fb5a75a7c0351d299b6" category="list-text">Fare clic su *Modifica questa pagina* per modificare direttamente il contenuto. Il responsabile dei contenuti NetApp esamina quindi le modifiche e le unisce.</block>
   <block id="fc6fa4fa9c3500ee1dd0b740b3114c08" category="paragraph"><block ref="c1785ec6df9b224ef79cf3c09e64e1f0" category="inline-xref-macro-rx"></block>.</block>
-  <block id="58ae06b250b4f23ead9f3ff7dfe81646" category="paragraph">Il seguente video mostra come utilizzare queste opzioni di contribuzione. È inoltre possibile scorrere verso il basso per leggere le istruzioni scritte.</block>
   <block id="951885a0dd056fe4b77aec324c26ddc3" category="section-title">Richiedi modifiche al documento</block>
   <block id="c32408dce34914d1382b48004c1bf8b6" category="paragraph">L'invio di una richiesta di modifica del documento è il modo più comune per contribuire ai documenti NetApp. Dopo aver inviato la richiesta, il content lead confermerà di aver ricevuto il tuo feedback. Riceverai una notifica via email da GitHub quando lo farà.</block>
   <block id="7c7af2a4854e39ebf4680896ae4a923c" category="paragraph">Se il lead del contenuto accetta che il tuo suggerimento può migliorare il contenuto, commetteranno la modifica poco dopo. Riceverai un'altra notifica che ti informa che il tuo feedback è stato incorporato.</block>
   <block id="a05fae06f0ea6344a1a2e3664f26c452" category="admonition">Tutti i commenti forniti sono pubblicamente visibili. Chiunque si acceda ai problemi nel repo GitHub può vedere i tuoi commenti.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Fasi</block>
   <block id="2e91d8a2b46d1150d0a32df6d40575f5" category="inline-link">crearne uno da github.com</block>
-  <block id="3abb7514ea5c7ede0747a0733732c2f3" category="list-text">Se non disponi già di un account GitHub,<block ref="23432af0d50ca18ea33f0fbce4450214" category="inline-link-rx"></block>.</block>
   <block id="b18871a00508acb170fcc72706ee5239" category="list-text">Accedi al tuo account GitHub.</block>
   <block id="f8bf3ad3550f95af891e242fcfff7b8a" category="inline-link">docs.netapp.com</block>
   <block id="8a4e27c18032ec0b6639a19d635d31e4" category="list-text">Utilizzando il browser Web, aprire la pagina su<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> ciò è correlato al tuo feedback.</block>
-  <block id="1f619b573ae23c66ea41f59e590271bc" category="list-text">Nella parte destra della pagina, fare clic su *Richiedi modifiche al documento*.</block>
   <block id="58d1e1d3dad3ec015e2540b3713ef488" category="paragraph"><block ref="58d1e1d3dad3ec015e2540b3713ef488" category="inline-image-macro-rx" type="image"></block></block>
   <block id="da894d315c3a28edc86e627db54669ca" category="paragraph">Si apre una nuova scheda del browser con un modulo che puoi utilizzare per fornire dettagli al nostro team di documentazione.</block>
-  <block id="5f2272ef73288779845c4c08e2f59ebf" category="list-text">Inserisci un titolo e fornisci i dettagli della richiesta.</block>
-  <block id="aced665f55b18038fb5c4f5d628e63ab" category="paragraph">Il campo dei commenti contiene il titolo e l'URL della pagina. Non eliminare queste informazioni perché saranno necessarie per comprendere la tua richiesta.</block>
   <block id="f6e56229ccb769a21a8ee36c8ce1097b" category="inline-image-macro">Inviare un nuovo numero</block>
   <block id="947e4b9915f7e5c398e8dbce136bcf89" category="paragraph"><block ref="947e4b9915f7e5c398e8dbce136bcf89" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2890ce089ba2b3aaa1f10b5e3e703a49" category="list-text">Fare clic su *Invia nuovo problema* per creare un problema per la richiesta.</block>
   <block id="7acb8defb656ebd5f9decf15c05926ca" category="paragraph-title">Al termine</block>
   <block id="95aee4fc901facb0b53ed386f6ba53da" category="paragraph">L'apertura di un problema consente la collaborazione attraverso i commenti di GitHub. Riceverai notifiche via email in base alle preferenze indicate nelle impostazioni del tuo account GitHub.</block>
-  <block id="0cc0be5a3257632810d8db494aff25e6" category="paragraph">Puoi anche visualizzare lo stato della richiesta facendo clic su *problemi* sul banner in alto accanto alla casella di ricerca di GitHub:</block>
   <block id="3dd521ea84dae3c68a7c4831eb73ee9c" category="inline-image-macro">Scheda problemi</block>
   <block id="0e3fe7eab71196775ffe760806bbfb3e" category="paragraph"><block ref="0e3fe7eab71196775ffe760806bbfb3e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1482bc2757808e2d1858d6d85b2b3760" category="section-title">Inviare le modifiche ai documenti</block>
@@ -358,27 +299,14 @@
   <block id="10785bb6cb06604e049556197d164114" category="inline-link-macro">Sintassi di AsciiDoc</block>
   <block id="5a154fee0d82d09b2f38381ace957a3a" category="list-text"><block ref="5a154fee0d82d09b2f38381ace957a3a" category="inline-link-macro-rx"></block></block>
   <block id="579b796bc7d54ee31ef84e8c48422971" category="list-text">Utilizzando il browser Web, aprire la pagina su<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> che si desidera modificare.</block>
-  <block id="7a662600d17a7a3fc3d67377bf85d44b" category="list-text">Sul lato destro della pagina, fare clic su *Modifica questa pagina*.</block>
   <block id="e7d8ad09698890d7f20cd3a3b8e95fc8" category="inline-image-macro">Modificare questa pagina</block>
   <block id="a4589f41d9a3b1bd4142ba0e7cfdc9ef" category="paragraph"><block ref="a4589f41d9a3b1bd4142ba0e7cfdc9ef" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b59c044d870fb1294e907044621f124b" category="list-text">Fare clic sull'icona a forma di matita.</block>
   <block id="caa1e25984e775c1ab44cfd42620d720" category="inline-image-macro">Icona a forma di matita</block>
   <block id="e2e5c2e55b331168cbbca8d31c8231aa" category="paragraph"><block ref="e2e5c2e55b331168cbbca8d31c8231aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="792d0dce959b2d9ae148b407c3b1fcdc" category="list-text">Modificare il contenuto.</block>
-  <block id="a00f3d1c6f1da7962755317b49908656" category="inline-link-macro">Fare clic qui per ulteriori informazioni sulla sintassi di AsciiDoc</block>
-  <block id="3064132ace3608ae734c003590fb2fe4" category="paragraph">Il contenuto è scritto in AsciiDoc, un linguaggio di markup leggero. Se hai bisogno di aiuto, <block ref="2bedc0416ed9f3a7518e6a4699b53152" category="inline-link-macro-rx"></block>.</block>
-  <block id="2d03f964de7fdb330c454135ee653115" category="list-text">Per confermare le modifiche, scorri la pagina e compila il modulo:</block>
-  <block id="61a1e31c63e5f226790417c1f720a1a0" category="list-text">Inserire un titolo e una descrizione facoltativa.</block>
-  <block id="72f37f83756bbfaf46021d50b742f9e1" category="list-text">Selezionare *Crea un nuovo ramo per questo commit e avvia una richiesta pull*.</block>
-  <block id="d153affd9948551a245f582eb2c07226" category="list-text">Fare clic su *Proponi modifiche*.</block>
-  <block id="0c78a81fa65e4357f7ee46b933c7e6dd" category="paragraph">GitHub inserisce automaticamente il nome di una filiale (ad esempio _username-patch-n_) per la modifica.</block>
   <block id="931231a18711fc1a896b57286e811c85" category="inline-image-macro">Proporre la modifica del file</block>
   <block id="093fde2206aa408d480819dfd5a67301" category="paragraph"><block ref="093fde2206aa408d480819dfd5a67301" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3ae1151e4be411b5f717a9545786a443" category="list-text">Fornire un commento sulla modifica effettuata, quindi fare clic su *Create pull request* (Crea richiesta pull).</block>
-  <block id="de275cc7c4f3e817ed9ecc4e830c24d7" category="inline-image-macro">Creare una richiesta pull</block>
-  <block id="eff336df8f860a8a23a11f39595d1d8a" category="paragraph"><block ref="eff336df8f860a8a23a11f39595d1d8a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ca8213edfdeec4eefac41aec2db1d81" category="paragraph">Dopo aver proposto le modifiche, le esamineremo, apporta le modifiche necessarie e le uniremo al repository di GitHub.</block>
-  <block id="b5dd88b790a83a46fee3bc8055ca8606" category="paragraph">Per visualizzare lo stato della richiesta pull, fare clic su *richiesta pull* sul banner superiore accanto alla casella di ricerca di GitHub:</block>
   <block id="eb343639c45a95881e36d4973088d4ee" category="inline-image-macro">Scheda di richiesta pull</block>
   <block id="179de754e52640d4cfddf43d10964d76" category="paragraph"><block ref="179de754e52640d4cfddf43d10964d76" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e7f17e2b8d75868f6d36f8f96798dd35" category="doc">Policy che proibisce l'utilizzo di contenuti generati dall'ai nella documentazione tecnica di NetApp</block>
@@ -513,4 +441,76 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="97dd767bd76bea2996ce155f6fded935" category="list-text">Seleziona *Richiedi modifiche alla documentazione* per inviare un feedback generale o per porre una domanda sul contenuto. Il responsabile dei contenuti NetApp esamina quindi la tua richiesta per determinare quali modifiche sono necessarie per i documenti. Questa è l'opzione più comune.</block>
+  <block id="52b3d02fd2caf09c367f6a8e47835fc2" category="list-text">Seleziona *Modifica questa pagina* per modificare direttamente il contenuto. Il responsabile dei contenuti NetApp esamina quindi le modifiche e le unisce.</block>
+  <block id="c9dfb8a3cf2c4d02f86adae4807900dc" category="paragraph">Il video seguente fornisce una breve panoramica di queste due opzioni:</block>
+  <block id="3cafc4d2380a4f8525dcaa0a65259e21" category="video-title">Panoramica del contributo al docs.netapp.com</block>
+  <block id="626ac697ef02a0c6709fb546054d122b" category="paragraph">Le sezioni seguenti forniscono istruzioni dettagliate.</block>
+  <block id="07c96edbc201979283e816b9981511ba" category="list-text">Se non disponi già di un account GitHub,<block ref="23432af0d50ca18ea33f0fbce4450214" category="inline-link-rx"></block></block>
+  <block id="d57a9503d361d3ae7c6c8a8901e4ec01" category="list-text">Nella parte superiore della pagina, selezionare *Suggerisci modifiche &gt; Richiedi modifiche doc*.</block>
+  <block id="e7148b174b009d86d5508576edce5e79" category="list-text">Immettere un titolo, un riepilogo e riconoscere che il problema non contiene informazioni riservate.</block>
+  <block id="ce0d3c95cabd252488704b76d67de5a3" category="paragraph">Il modulo è precompilato con l'URL e il titolo della pagina. Non eliminare queste informazioni perché saranno necessarie per comprendere la tua richiesta.</block>
+  <block id="0c390f846ca58a227d1aee296de3ecc8" category="list-text">Selezionare *Invia nuovo problema* per creare un problema per la richiesta.</block>
+  <block id="6106644210508f0d3cdd2e75fbcd2426" category="paragraph">È inoltre possibile visualizzare lo stato della richiesta selezionando *problemi* dal banner GitHub:</block>
+  <block id="e2dcb1b61f17b0edfa4bf0efc3daa00d" category="list-text">Nella parte superiore della pagina, selezionare *Suggerisci modifiche &gt; Modifica questa pagina*.</block>
+  <block id="abbfd3cb01caeb0215de02a39bcfc5db" category="list-text">Selezionare l'icona a forma di matita.</block>
+  <block id="d6f7cb925f7942a5f32afb8f574b2d6b" category="list-text">Se ti viene richiesto di creare un fork del repository, seleziona *fork this repository*.</block>
+  <block id="c168afecd52fbcd34ad4c5b1cb309cbd" category="inline-link-macro">Informazioni sulla sintassi di AsciDoc</block>
+  <block id="0ae8405b0d16e28dc8c63d65a6ffcbc3" category="paragraph">Il contenuto è scritto in AsciiDoc, un linguaggio di markup leggero. <block ref="ea8314bd523035ede707a5b1e820e8e3" category="inline-link-macro-rx"></block>.</block>
+  <block id="5a5671132212d9d3a7dd5ab13cf9feca" category="list-text">Per confermare le modifiche, seleziona *Conferma modifiche* e compila il modulo:</block>
+  <block id="46a83309329de081f1a3c036b2c678b2" category="list-text">Se si desidera, modificare il messaggio di conferma predefinito.</block>
+  <block id="78dbd5078284d84d925a9d3d1ed61819" category="list-text">Aggiungere una descrizione facoltativa.</block>
+  <block id="2e84483ed9299418b0150374661cf99c" category="list-text">Selezionare *Proponi modifiche*.</block>
+  <block id="607644ea86d6d93cc4cdd29af464ffb4" category="list-text">Selezionare *Crea richiesta pull*.</block>
+  <block id="fc6c6e20ee1801385613951d198838c6" category="paragraph">È possibile visualizzare lo stato della richiesta pull selezionando *richieste pull* dal banner GitHub:</block>
+  <block id="a0bc5d64ea914c22438ad9b10a8d2bca" category="paragraph">Scrivete come voi quando spiegate qualcosa a un collega professionista. Scrivere in un tono di conversazione ti aiuta a entrare in contatto con il tuo pubblico.</block>
+  <block id="3564fc274e19607926c43722a0d4037c" category="cell">Non è divertente quando si verificano errori. Non preoccuparti, consulta la dashboard cluster per scoprire cosa è successo e cosa è interessato.</block>
+  <block id="42638156b2d0e0647061b81fe0d27503" category="cell">In caso di guasto, Cloud Tiering visualizza lo stato di integrità "Failed" (guasto) nella dashboard del cluster. Visualizzare lo stato per ottenere informazioni sull'errore.</block>
+  <block id="4ddc5daa3f6952d24c7f1e44afc7da05" category="cell">Abbiamo tre modi per pagare il tiering cloud. Un abbonamento pay-as-you-go, naturalmente, ma anche una licenza di tiering ONTAP, o anche una combinazione di entrambi. Ma non puoi ottenere le licenze da Cloud Manager, quindi basta andare direttamente al servizio Cloud Tiering per configurarlo.</block>
+  <block id="bd99dd6ef2e014ae56a7f23c577742dc" category="cell">Paga il Tier cloud con un abbonamento pay-as-you-go, una licenza di tiering ONTAP o una combinazione di entrambi. Il licensing non è disponibile all'interno di Cloud Manager, ma puoi andare direttamente al servizio Cloud Tiering per configurarlo.</block>
+  <block id="c972f122e78507c540f344a4e61ce1c7" category="cell">Hai due modi per analizzare gli attributi di benessere del tuo sistema: Basta selezionare il widget attributi benessere sul dashboard. Oppure, se si desidera visualizzare l'intero elenco degli attributi benessere in una vista, selezionare Visualizza tutto.</block>
+  <block id="419e062b0a0e2775c1a54691ccef8b1b" category="paragraph">Evitare parole grandi e confuse. Mantieni la semplicità. Stai spiegando qualcosa a un collega professionista, non mostrando il tuo vocabolario.</block>
+  <block id="5d943fe7d088fe2acb6eb914be0e07b9" category="paragraph">Frasi brevi e semplici semplificano la lettura o la scansione dei contenuti. È giusto usare una frase più lunga ogni ora ed allora ma seguirla con una più corta. Così.</block>
+  <block id="34adf8b022c7b72afa623dd7ec748764" category="paragraph">Evitare la voce passiva è una regola standard per la scrittura tecnica, ma è particolarmente importante utilizzare la voce attiva quando si desidera ascoltare una conversazione.</block>
+  <block id="337aec4bab6bfffa105b941993954ccd" category="paragraph">Inizia con ciò che è importante per l'utente. Scopri cosa sta cercando di fare l'utente e concentrati sull'assistenza per il raggiungimento di tale obiettivo.</block>
+  <block id="87a0e0ee70915382c17e655bd3ffa9dd" category="paragraph">Se si descrive come completare una serie di attività, inserire tutto in una pagina in una serie di sezioni, incluse informazioni concettuali e basate su riferimenti. Non spezzare la tua pagina in diverse mini-pagine, che richiedono troppo clic. Allo stesso tempo, non creare lunghe pagine intimidatorie. USA il tuo giudizio migliore per decidere quando una pagina è troppo lunga.</block>
+  <block id="72a758f7515c20caaea0a45f816c6112" category="section-title">Organizzare i contenuti in base all'obiettivo dell'utente</block>
+  <block id="05a5f50f88982e6ed8b6a3f52aeebdf2" category="list-text">Non usare umorismo o ironia.</block>
+  <block id="8af7fc9385a3720c928df0ca6e942892" category="list-text">Non utilizzare contenuti discriminatori.</block>
+  <block id="ca82ee793e3056ec4d0835ae2473a598" category="list-text">Non usi il linguaggio di genere-polarizzato a meno che stiate scrivendo per una persona specifica.</block>
+  <block id="2d26cccc873ac9d1cdacdf8bb797d5db" category="list-text">Non si sa chi o cosa ha eseguito l'azione.</block>
+  <block id="5f5cba4ea52fa838a05e1f2d89ad6656" category="list-text">Non è possibile scriverlo, ad esempio per alcune informazioni sui prerequisiti.</block>
+  <block id="2abbe335946d2b00acf396cf266f79e5" category="paragraph">Utilizzare LA NOTA per informazioni importanti che devono essere distinte dal resto del testo. Evitare di utilizzare UNA NOTA per le informazioni "piacevoli da conoscere" che non sono necessarie per gli utenti per conoscere l'attività o per completare l'attività.</block>
+  <block id="ba499125a72ffd5b8b1e00177f718b36" category="list-text">Non utilizzare "anche" per indicare "in alternativa".</block>
+  <block id="f4023bffe0a0ebb018f9db72a2d2a6d7" category="paragraph">Non utilizzare "come" per "perché".</block>
+  <block id="22fa855460a1fecec0585fd7a19bc5e7" category="list-text">Non utilizzare "può", che è ambiguo perché potrebbe significare capacità o autorizzazione.</block>
+  <block id="3af0e91d720edbe50472dc244089ac4d" category="list-text">Evitare di utilizzare "must" perché è passivo. Considerare la possibilità di riaffermare il pensiero come un'istruzione utilizzando la voce imperativa. Se si utilizza "must", utilizzarlo per indicare un'azione o una condizione richiesta.</block>
+  <block id="e9582246b9c9dc3ba33ceb6cefb5ef42" category="paragraph">"Scrivere come se si parlasse quando si spiega qualcosa a un collega professionista" significa qualcosa di diverso per tutti. Il nostro stile di conversazione professionale ci aiuta a collegarci con gli utenti e aumenta la frequenza di piccole incoerenze tra diversi autori che hanno contribuito:</block>
+  <block id="945c6682875eec566264ce79cbd2ad0d" category="list-text">Concentratevi su come rendere i contenuti chiari e facili da utilizzare. Se tutto il contenuto è chiaro e facile da usare, non importa piccole incoerenze.</block>
+  <block id="e298d7e5e24682a3c8bdbb35a4fe032b" category="list-text">Sia costante all'interno della pagina che state scrivendo.</block>
+  <block id="5759b7c5715d057d5710c3f672f2fa6b" category="cell">non lo sono</block>
+  <block id="56de9219979795654f00a462f479b92d" category="cell">sei tu</block>
+  <block id="284097c621ee43e2ed3a2212d29102f5" category="cell">noi (se è richiesto il futuro)</block>
+  <block id="d90e297e46a1967fdcc50b1b348bfb6d" category="cell">sarebbe stato</block>
+  <block id="80d265e5e803c6d25656a0342dfe9058" category="cell">dovrebbe avere</block>
+  <block id="0eab61dbc3e8ad63324f3382baf86ac7" category="cell">non lo avremmo mai fatto</block>
+  <block id="368ae8075df4c346356ccb30d7017e0f" category="cell">non dovrebbe avere</block>
+  <block id="f53d2e2b9d5955df6129edc300678d0e" category="cell">potrebbe essere</block>
+  <block id="4f6cd60d5fc734e269d47ea283663717" category="cell">non avrei potuto</block>
+  <block id="735bfdc7bbc42ed734cb31f537471349" category="paragraph">Non utilizzare "se non" da solo per fare riferimento alla frase precedente:</block>
+  <block id="2bbd53c30d55211887b496ed8d655501" category="paragraph">Per gli indirizzi IP (incluso IPv6) negli esempi, è sicuro includere qualsiasi indirizzo che inizia con "10.x".</block>
+  <block id="d921ee7449d1cc46bad312a669fc1dfc" category="paragraph">Non fare riferimento ai tempi o al contenuto delle prossime release o funzionalità dei prodotti, se non dire che una funzione o funzione non è "attualmente supportata".</block>
+  <block id="a2aa669690daf70aa345dc242196842e" category="list-text">Se tutte le voci dell'elenco sono frammenti di frase, non terminarle con punti.</block>
+  <block id="25cbf556f141e0456fc4754e98765063" category="list-text">Se non è possibile utilizzare "prima", utilizzare "precedente" come aggettivo per fare riferimento a qualcosa che si è verificato prima nel tempo o con un ordine di importanza superiore.</block>
+  <block id="9bc4b7e8f51eb64e4d558ca5a59a7ddc" category="paragraph">Utilizzare "da" per indicare un intervallo di tempo. Non utilizzare "da" per indicare "perché".</block>
+  <block id="ab9b9e78a26798d3eaa0db4706f384d3" category="paragraph">Nella maggior parte dei nostri contenuti tecnici non sono inclusi i simboli dei marchi perché le dichiarazioni legali nei nostri modelli sono sufficienti. Tuttavia, durante l'utilizzo, seguiamo tutte le regole di utilizzo<block ref="2e2a247b84825e1844201424214689d3" category="inline-link-rx"></block>:</block>
+  <block id="ff559a115ec6086ff7a0014b09a7628a" category="list-text">Non abbreviare, sillabare o utilizzare il corsivo per i termini registrati.</block>
+  <block id="10705c28baf7efc3b2835cbefb6f4e3a" category="list-text">Non pluralizzare i termini del marchio. Se è richiesta una forma plurale, utilizzare il nome del marchio come aggettivo che modifica un sostantivo plurale.</block>
+  <block id="760515d763f215ba568e0df111ef068c" category="list-text">Non utilizzare una forma possessiva di un termine con marchio. È possibile utilizzare la forma possessiva dei nomi delle società, come NetApp, quando i nomi vengono utilizzati in senso generale, piuttosto che come termini con marchio.</block>
+  <block id="aaa67196f34f17bf807576a3879d2ae0" category="list-text">Non guidare l'utente attraverso una procedura guidata o una schermata passo dopo passo. Indicate solo cose importanti che non sono evidenti dall'interfaccia.</block>
+  <block id="38833712b2d186bf03b201fea01c856b" category="list-text">Non includere "fare clic su OK" o "fare clic su Salva" o "il volume è stato creato" o altro elemento ovvio per qualcuno che esegue l'attività.</block>
+  <block id="20fa4a924392561a86abe95d269610bd" category="list-text">Non fare clic su "Click". Utilizzare sempre "seleziona" perché la parola copre mouse, touch, tastiera e qualsiasi altro modo di scegliere.</block>
+  <block id="bd62ac2d873965d23f9623cfb0176399" category="paragraph">Evitare di documentare il livello di granularità che richiede la denominazione degli elementi dell'interfaccia utente. Affidati all'interfaccia per guidare l'utente attraverso le specifiche dell'interazione. Se è necessario ottenere questo specifico, assegnare un nome all'etichetta sull'elemento. Ad esempio, "selezionare il volume desiderato" o "selezionare "Usa volume esistente". Non è necessario assegnare un nome a menu, pulsanti di opzione o caselle di controllo, ma è sufficiente utilizzare l'etichetta.</block>
+  <block id="bf9c7e854a6c302d5349d2128c75933d" category="paragraph">Per le icone che gli utenti devono selezionare, utilizzare un'immagine dell'icona. Non cercare di denominarlo. Questa regola si applica alle icone come freccia, matita, ingranaggio, kabob, hamburger, e così via.</block>
+  <block id="3d053f543ceb20e8d9a54ccac1275a6f" category="paragraph">Una cattura occasionale dello schermo ("screenshot") aiuta gli utenti a essere sicuri che si trovino nel posto giusto in un'interfaccia quando avviano o cambiano le interfacce durante un flusso di lavoro. Non utilizzare le schermate acquisite per visualizzare i dati da inserire o il valore da selezionare.</block>
 </blocks>
