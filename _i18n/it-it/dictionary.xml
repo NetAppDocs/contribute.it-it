@@ -284,7 +284,6 @@
   <block id="f8bf3ad3550f95af891e242fcfff7b8a" category="inline-link">docs.netapp.com</block>
   <block id="8a4e27c18032ec0b6639a19d635d31e4" category="list-text">Utilizzando il browser Web, aprire la pagina su<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> ciò è correlato al tuo feedback.</block>
   <block id="58d1e1d3dad3ec015e2540b3713ef488" category="paragraph"><block ref="58d1e1d3dad3ec015e2540b3713ef488" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="da894d315c3a28edc86e627db54669ca" category="paragraph">Si apre una nuova scheda del browser con un modulo che puoi utilizzare per fornire dettagli al nostro team di documentazione.</block>
   <block id="f6e56229ccb769a21a8ee36c8ce1097b" category="inline-image-macro">Inviare un nuovo numero</block>
   <block id="947e4b9915f7e5c398e8dbce136bcf89" category="paragraph"><block ref="947e4b9915f7e5c398e8dbce136bcf89" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7acb8defb656ebd5f9decf15c05926ca" category="paragraph-title">Al termine</block>
@@ -443,7 +442,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="97dd767bd76bea2996ce155f6fded935" category="list-text">Seleziona *Richiedi modifiche alla documentazione* per inviare un feedback generale o per porre una domanda sul contenuto. Il responsabile dei contenuti NetApp esamina quindi la tua richiesta per determinare quali modifiche sono necessarie per i documenti. Questa è l'opzione più comune.</block>
   <block id="52b3d02fd2caf09c367f6a8e47835fc2" category="list-text">Seleziona *Modifica questa pagina* per modificare direttamente il contenuto. Il responsabile dei contenuti NetApp esamina quindi le modifiche e le unisce.</block>
-  <block id="c9dfb8a3cf2c4d02f86adae4807900dc" category="paragraph">Il video seguente fornisce una breve panoramica di queste due opzioni:</block>
   <block id="3cafc4d2380a4f8525dcaa0a65259e21" category="video-title">Panoramica del contributo al docs.netapp.com</block>
   <block id="626ac697ef02a0c6709fb546054d122b" category="paragraph">Le sezioni seguenti forniscono istruzioni dettagliate.</block>
   <block id="07c96edbc201979283e816b9981511ba" category="list-text">Se non disponi già di un account GitHub,<block ref="23432af0d50ca18ea33f0fbce4450214" category="inline-link-rx"></block></block>
@@ -513,4 +511,7 @@
   <block id="bd62ac2d873965d23f9623cfb0176399" category="paragraph">Evitare di documentare il livello di granularità che richiede la denominazione degli elementi dell'interfaccia utente. Affidati all'interfaccia per guidare l'utente attraverso le specifiche dell'interazione. Se è necessario ottenere questo specifico, assegnare un nome all'etichetta sull'elemento. Ad esempio, "selezionare il volume desiderato" o "selezionare "Usa volume esistente". Non è necessario assegnare un nome a menu, pulsanti di opzione o caselle di controllo, ma è sufficiente utilizzare l'etichetta.</block>
   <block id="bf9c7e854a6c302d5349d2128c75933d" category="paragraph">Per le icone che gli utenti devono selezionare, utilizzare un'immagine dell'icona. Non cercare di denominarlo. Questa regola si applica alle icone come freccia, matita, ingranaggio, kabob, hamburger, e così via.</block>
   <block id="3d053f543ceb20e8d9a54ccac1275a6f" category="paragraph">Una cattura occasionale dello schermo ("screenshot") aiuta gli utenti a essere sicuri che si trovino nel posto giusto in un'interfaccia quando avviano o cambiano le interfacce durante un flusso di lavoro. Non utilizzare le schermate acquisite per visualizzare i dati da inserire o il valore da selezionare.</block>
+  <block id="aa475deb1febd97e43051f4cd6e0e03c" category="paragraph">Il video seguente fornisce una breve panoramica di queste due opzioni.</block>
+  <block id="d2a6bdb03847dd26c195e27066ccdb58" category="paragraph">Si apre una nuova scheda del browser con un modulo GitHub che puoi utilizzare per fornire dettagli al nostro team di documentazione.</block>
+  <block id="60a186f1a1bf3949fd214cb8c41bc66f" category="paragraph">Si apre una nuova scheda del browser che consente di accedere al file nel repository GitHub per il sito della documentazione.</block>
 </blocks>

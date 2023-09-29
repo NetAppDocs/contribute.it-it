@@ -33,7 +33,7 @@ Puoi contribuire ai nostri documenti utilizzando le seguenti opzioni:
 
 
 
-Il video seguente fornisce una breve panoramica di queste due opzioni:
+Il video seguente fornisce una breve panoramica di queste due opzioni.
 
 .Panoramica del contributo al docs.netapp.com
 video::37b6207f-30cd-4517-a80a-b08a0138059b[panopto]
@@ -59,7 +59,7 @@ TIP: Tutti i commenti forniti sono pubblicamente visibili. Chiunque si acceda ai
 image:screenshot-request-doc-changes.png["Richiedi modifiche al documento"]
 
 +
-Si apre una nuova scheda del browser con un modulo che puoi utilizzare per fornire dettagli al nostro team di documentazione.
+Si apre una nuova scheda del browser con un modulo GitHub che puoi utilizzare per fornire dettagli al nostro team di documentazione.
 
 . Immettere un titolo, un riepilogo e riconoscere che il problema non contiene informazioni riservate.
 +
@@ -99,6 +99,9 @@ Se hai bisogno di aiuto con il nostro stile di scrittura o la sintassi di origin
 . Nella parte superiore della pagina, selezionare *Suggerisci modifiche > Modifica questa pagina*.
 +
 image:screenshot-edit-this-page.png["Modificare questa pagina"]
+
++
+Si apre una nuova scheda del browser che consente di accedere al file nel repository GitHub per il sito della documentazione.
 
 . Selezionare l'icona a forma di matita.
 +
