@@ -3,15 +3,12 @@ sidebar: sidebar
 permalink: style.html 
 ---
 = Guida di stile per documenti NetApp
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -310,44 +307,34 @@ Vedere <<ammonizioni>> per altre etichette che identificano il contenuto separat
 
 Le contrazioni rafforzano un tono di conversazione e molte contrazioni sono facili da comprendere e tradurre.
 
-* Utilizzare contrazioni come queste, che sono facili da comprendere e tradurre:
-+
-|===
+.Utilizzare contrazioni come queste, che sono facili da comprendere e tradurre:
+* non lo sono
+* non posso
+* non lo ha fatto
+* non è così
+* non farlo
+* non lo è
+* è così
+* andiamo
+* non lo era
+* lo siamo
+* non lo era
+* sei tu
 
 
-| non lo sono | sei tu 
+.Non utilizzare queste contrazioni quando è necessario un periodo di tempo futuro:
+* ci occuperemo noi
+* no
+* la massima tranquillità
 
 
-| non lo è | lo siamo 
-
-
-| non lo era | è così 
-
-
-| non lo era | andiamo 
-
-
-| non lo ha fatto | noi (se è richiesto il futuro) 
-
-
-| non è così | non lo farà (se è richiesto un futuro teso) 
-
-
-| non farlo | (se è necessario un futuro teso) 
-|===
-* Non utilizzare contrazioni come queste, difficili da comprendere e tradurre:
-+
-|===
-
-
-| sarebbe stato | dovrebbe avere 
-
-
-| non lo avremmo mai fatto | non dovrebbe avere 
-
-
-| potrebbe essere | non avrei potuto 
-|===
+.Non utilizzare contrazioni come queste, difficili da comprendere e tradurre:
+* potrebbe essere
+* non avrei potuto
+* dovrebbe avere
+* non dovrebbe avere
+* sarebbe stato
+* non lo avremmo mai fatto
 
 
 

@@ -3,15 +3,12 @@ sidebar: sidebar
 permalink: ai-policy.html 
 ---
 = Policy che proibisce l'utilizzo di contenuti generati dall'ai nella documentazione tecnica di NetApp
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
