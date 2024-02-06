@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head class="at-element-marker">
+  <title>Riferimento AsciiDoc</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Riferimento AsciiDoc" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/it-it/contribute/asciidoc_syntax.html" />
+	<meta property="og:description" content="" />
+  <meta property="og:image" content="https://docs.netapp.com/it-it/contribute/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
+  <link rel="icon" href="/it-it/contribute/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/it-it/contribute/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/it-it/contribute/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/it-it/contribute/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/it-it/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/contribute/asciidoc_syntax.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/contribute/asciidoc_syntax.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/it-it/contribute/js/na-search.js'></script><script src='/it-it/contribute/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/it-it/contribute/js/custom-dropdown.js'></script>
+  <script src='/it-it/contribute/js/FileSaver.min.js'></script>
+  <script src='/it-it/contribute/js/jszip-utils.min.js'></script>
+  <script src='/it-it/contribute/js/jszip.min.js'></script><script src='/it-it/contribute/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/it-it/contribute/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/it">
+                <image id="ie-header-logo" src="/it-it/contribute/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/it/support-and-training/documentation/">Documenti</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/it-it/contribute/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">Italiano</span>
+                    <img src="/it-it/contribute/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/it-it/contribute/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/it-it/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/contribute/asciidoc_syntax.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/it-it/contribute/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">Tutto NetApp</span>
+                    <img src="/it-it/contribute/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/it-it/contribute/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">Supporto</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">Knowledge Base</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/it/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">Training</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/it-it/contribute/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/it-it/contribute/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">Tutti i documenti</a>
+    </li>
+    
+    
+
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/it-it/contribute/">-->
+      Contributor's Guide
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/it-it/contribute/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/it-it/contribute/search.html" 
+        data-type="widget"
+        data-placeholder="Esplora la documentazione"
+        data-no-results-found="Nessun risultato per {query}"
+        data-did-you-mean="Cerca {suggestion}."
+        data-no-results-found-did-you-mean="Nessun risultato per {query}. Intendi {suggestion}?"
+        data-results-found="{hitCount} risultati trovati"
+        data-error-message="Si è verificato un errore. Riprova."
+        data-error-reset="Reimposta ricerca"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Contribuire al contenuto"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/asciidoc_syntax.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/it-it/contribute/index.html">
+        Contribuire al contenuto
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Style per documenti NetApp"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/asciidoc_syntax.html" 
+      dale-entry-url="/style.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/it-it/contribute/style.html">
+        Style per documenti NetApp
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Riferimento AsciiDoc"
+      data-li-level="1#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/asciidoc_syntax.html" 
+      dale-entry-url="/asciidoc_syntax.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/it-it/contribute/asciidoc_syntax.html">
+        Riferimento AsciiDoc
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Policy sui contenuti generati dall'ai"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/asciidoc_syntax.html" 
+      dale-entry-url="/ai-policy.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/it-it/contribute/ai-policy.html">
+        Policy sui contenuti generati dall'ai
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Note legali"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/asciidoc_syntax.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/it-it/contribute/legal-notices.html">
+        Note legali
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/it-it/contribute"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/it-it/contribute"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/it-it/contribute/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> La versione in lingua italiana fornita proviene da una traduzione automatica. Per eventuali incoerenze, fare riferimento alla versione in lingua inglese. </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">Riferimento AsciiDoc</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-02-06 15:22:11 +0000">02/06/2024</time>
+        
+    
+    
+        <span>Collaboratori
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/it-it/contribute/images/discuss-sm.svg" alt="" class="github-icon" />Suggerisci modifiche</span>
+        <img src="/it-it/contribute/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/it-it/contribute/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/contribute.it-it/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/it-it/contribute/asciidoc_syntax.html&page-title=Riferimento AsciiDoc" class="page-nav-contribute-link" role="button">Richiedi modifiche alla documentazione</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/contribute/blob/main/asciidoc_syntax.adoc" class="page-nav-contribute-link" role="button">Modifica questa pagina</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link" style="visibility: hidden;" >Scopri come collaborare</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/it-it/contribute/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/it-it/contribute/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/it-it/contribute/pdfs/fullsite-sidebar/Contribuisci_ai_contenuti_tecnici_di_NetApp_in_GitHub.pdf" >
+                    <img src="/it-it/contribute/images/pdf-icon.png" alt="" width="16" height="16"/>PDF del sito di questa documentazione</a>
+
+
+
+
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/it-it/contribute/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>Raccolta di documenti PDF separati<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>AsciiDoc è un linguaggio di markup leggero, simile a Markdown. Abbiamo scelto AsciiDoc rispetto al markdown standard perché offre più funzionalità pronte all'uso. Anche se è più potente, è ancora semplice da utilizzare. Fare riferimento alle sezioni seguenti per iniziare a scrivere in AsciiDoc.</p>
+</div>
+<div class="paragraph">
+<p>Vedere <a href="http://asciidoctor.org/docs/user-manual/" target="_blank" rel="noopener">"Manuale utente di AsciiDoctor"</a> per ulteriore assistenza.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="le-basi">Le basi</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>È necessario conoscere alcuni elementi per apportare semplici aggiornamenti al documento.</p>
+</div>
+<div class="sect2">
+<h3 id="intestazioni">Intestazioni</h3>
+<div class="literalblock">
+<div class="content">
+<pre>= Page title
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+===== Level 4 section</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Puoi avere un solo titolo di pagina, ma puoi avere più titoli di sezione. Ad esempio, potrebbero essere presenti tre sezioni di livello 1 che includono le sezioni di livello 2 e 3:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>= Page title
+== Level 1 section
+=== Level 2 section
+== Level 1 section
+== Level 1 section
+=== Level 2 section
+==== Level 3 section</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="testo-in-grassetto">Testo in grassetto</h3>
+<div class="literalblock">
+<div class="content">
+<pre>*Text*</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="testo-in-corsivo">Testo in corsivo</h3>
+<div class="literalblock">
+<div class="content">
+<pre>_Text_</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="elenchi-puntati">Elenchi puntati</h3>
+<div class="literalblock">
+<div class="content">
+<pre>* Item 1
++
+Continuation text for the previous list item.
+
+* Item 2
+** Item 2a
+
+* Item 3</pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+Il segno + è una continuazione dell'elenco. Mantiene il testo inline con l'elemento dell'elenco. L'omissione del segno + influisce sulla formattazione della riga.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="elenchi-etichettati">Elenchi etichettati</h3>
+<div class="literalblock">
+<div class="content">
+<pre>Item 1::
+Description 1
+
+Item 2::
+Description 2</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>oppure</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[horizontal]
+Item 1::
+Description 1
+
+Item 2::
+Description 2</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Quando si aggiunge [orizzontale] sopra l'elemento 1, l'etichetta e la descrizione vengono visualizzate sulla stessa riga. Questo funziona bene quando si hanno descrizioni molto brevi.</p>
+</div>
+<div class="paragraph">
+<p><strong>Esempio senza [orizzontale]</strong></p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Elemento 1</dt>
+<dd>
+<p>Descrizione 1</p>
+</dd>
+<dt class="hdlist1">Elemento 2</dt>
+<dd>
+<p>Descrizione 2</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p><strong>Esempio con [Horizontal]</strong></p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Elemento 1</dt>
+<dd>
+<p>Descrizione 1</p>
+</dd>
+<dt class="hdlist1">Elemento 2</dt>
+<dd>
+<p>Descrizione 2</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fasi">Fasi</h3>
+<div class="literalblock">
+<div class="content">
+<pre>.Steps
+
+. Step 1
+
+. Step 2
++
+Info for step 2
+
+. Step 3
+.. Step 3a
+.. Step 3b
+
+. Step 4</pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+Il segno + è una continuazione dell'elenco. Mantiene il testo inline con l'elemento dell'elenco. L'omissione del segno + influisce sulla formattazione della riga.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="immagini">Immagini</h3>
+<div class="literalblock">
+<div class="content">
+<pre>image:file.png["alt text"]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>alt text</em> indica testo alternativo. Descrive l'immagine visualizzata sulla pagina. L'uso principale è rivolto agli utenti non vedenti che utilizzano screen reader.</p>
+</div>
+<div class="paragraph">
+<p>Due note:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>È meglio racchiudere il testo alt tra virgolette perché la punteggiatura come le virgole può influire sulla capacità di trasformare il contenuto da AsciDoc a HTML.</p>
+</li>
+<li>
+<p>Il <a href="https://docs.asciidoctor.org/asciidoc/latest/macros/images/" target="_blank" rel="noopener">"Documentazione di AsciiDoctor"</a> indicare che <em>immagini a blocchi</em> devono essere in linea con <em>due</em> due punti: <code>image::file.png</code></p>
+<div class="paragraph">
+<p>Tuttavia, preferiamo utilizzare i due punti, come illustrato in precedenza. L'utilizzo di due punti ha lo stesso risultato e funziona meglio con i nostri strumenti interni.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="video">Video</h3>
+<div class="paragraph">
+<p>In hosting su YouTube:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>video::id[youtube]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ospitato localmente in GitHub:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>video::file.mp4</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="link">Link</h3>
+<div class="paragraph">
+<p>La sintassi da utilizzare dipende da ciò a cui si sta eseguendo il collegamento:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#collegamento-a-un-sito-esterno">Collegamento a un sito esterno</a></p>
+</li>
+<li>
+<p><a href="#collegamento-a-una-sezione-della-stessa-pagina">Collegamento a una sezione della stessa pagina</a></p>
+</li>
+<li>
+<p><a href="#collegamento-a-unaltra-pagina-nei-documenti">Collegamento a un'altra pagina nei documenti</a></p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="collegamento-a-un-sito-esterno">Collegamento a un sito esterno</h4>
+<div class="literalblock">
+<div class="content">
+<pre>url[link text^]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Il pulsante ^ apre il collegamento in una nuova scheda del browser.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="collegamento-a-una-sezione-della-stessa-pagina">Collegamento a una sezione della stessa pagina</h4>
+<div class="literalblock">
+<div class="content">
+<pre>&lt;&lt;section_title&gt;&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ad esempio:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>For more details, see &lt;&lt;Headings&gt;&gt;.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Il testo del link può essere diverso dal titolo della sezione:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>&lt;&lt;section_title,Different link text&gt;&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ad esempio:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>&lt;&lt;Headings,Learn the syntax for headings&gt;&gt;.</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="collegamento-a-unaltra-pagina-nei-documenti">Collegamento a un'altra pagina nei documenti</h4>
+<div class="paragraph">
+<p>Il file deve trovarsi nello stesso repository GitHub:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>link:&lt;file_name&gt;.html[Link text]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Per collegarsi direttamente a una sezione del file, aggiungere un hash (n.) e il titolo della sezione:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>link:&lt;file_name&gt;.html#&lt;section-name-using-dashes-and-all-lower-case&gt;[Link text]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ad esempio:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>link:style.html#use-simple-words[Use simple words]</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="note-suggerimenti-e-precauzioni">Note, suggerimenti e precauzioni</h3>
+<div class="paragraph">
+<p>È possibile attirare l'attenzione su alcune affermazioni utilizzando note, suggerimenti o dichiarazioni di attenzione. Formattarli come segue:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>NOTE: text
+
+TIP: text
+
+CAUTION: text</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Utilizzarle con parsimonia. Non si desidera creare pagine piene di note e suggerimenti. Se lo fai, diventano meno significativi.</p>
+</div>
+<div class="paragraph">
+<p>Ecco come si presenta ciascuno di questi quando il contenuto di AsciiDoc viene trasformato in HTML:</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/note.svg" alt="Nota">
+</td>
+<td class="content">
+Questa è una nota. Include informazioni aggiuntive che un lettore potrebbe aver bisogno di conoscere.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+Un suggerimento fornisce informazioni utili che possono aiutare un utente a fare qualcosa o a capire qualcosa.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/caution.svg" alt="Avvertenza">
+</td>
+<td class="content">
+Un'attenzione consiglia al lettore di agire con attenzione. Utilizzalo in rare circostanze.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="contenuti-avanzati">Contenuti avanzati</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Se stai creando nuovi contenuti, consulta questa sezione per ottenere dettagli molto dettagliati.</p>
+</div>
+<div class="sect2">
+<h3 id="intestazioni-dei-documenti">Intestazioni dei documenti</h3>
+<div class="paragraph">
+<p>Ogni file AsciiDoc include due tipi di intestazioni. Il primo riguarda GitHub e il secondo riguarda AsciiDoctor, lo strumento di pubblicazione che trasforma il contenuto di AsciiDoc in HTML.</p>
+</div>
+<div class="paragraph">
+<p>L'intestazione di GitHub è il primo set di contenuti nel file .adoc. Deve includere quanto segue:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>---
+sidebar: sidebar
+permalink: &lt;file_name&gt;.html
+keywords: keyword1, keyword2, keyword3, keyword4, keyword5
+summary: "A summary."
+---</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Le parole chiave e il riepilogo influiscono direttamente sui risultati della ricerca. Infatti, il riepilogo viene visualizzato nei risultati della ricerca. Assicurarsi che sia facile da usare. La Best practice consiste nell'avere il riepilogo che rispecchiare il tuo paragrafo principale.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+È meglio racchiudere il riepilogo tra virgolette, perché la punteggiatura come i due punti di riferimento può influire sulla capacità di trasformare il contenuto da AsciDoc in HTML.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>L'intestazione successiva si trova direttamente sotto il titolo del documento (vedere <a href="#intestazioni">Intestazioni</a>). Questa intestazione deve includere quanto segue:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Non è necessario toccare nessuno dei parametri di questa intestazione. Basta incollarlo e dimenticarlo.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="paragrafo-principale">Paragrafo principale</h3>
+<div class="paragraph">
+<p>Il primo paragrafo visualizzato sotto il titolo del documento deve includere la seguente sintassi direttamente sopra di esso:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[.lead]
+This is my lead paragraph for this content.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>[.lead] applica la formattazione CSS al paragrafo principale, che ha un formato diverso dal testo che lo segue.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="tabelle">Tabelle</h3>
+<div class="paragraph">
+<p>Di seguito viene riportata la sintassi per una tabella di base:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[cols=2*,options="header",cols="25,75"]
+|===
+| heading column 1
+| heading column 2
+| row 1 column 1 | row 1 column 2
+| row 2 column 1 | row 2 column 2
+|===</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Esistono <em>molti</em> modi per formattare una tabella. Fare riferimento a. <a href="https://asciidoctor.org/docs/user-manual/#tables" target="_blank" rel="noopener">"Manuale utente di AsciiDoctor"</a> per ulteriore assistenza.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+Se una cella contiene contenuti formattati come elenchi puntati, si consiglia di aggiungere una "a" nell'intestazione della colonna per abilitare la formattazione. Ad esempio: [Cols="2,2,4a" options="header"]
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><a href="https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables" target="_blank" rel="noopener">"Per ulteriori esempi di tabelle, consultare la Guida di riferimento rapido alla sintassi di AsciiDoc"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="intestazioni-delle-attività">Intestazioni delle attività</h3>
+<div class="paragraph">
+<p>Se stai spiegando come eseguire un'attività, potresti includere informazioni introduttive prima di procedere. E potrebbe essere necessario dire cosa fare dopo aver completato i passaggi. In tal caso, è meglio organizzare le informazioni utilizzando le intestazioni, consentendo la scansione.</p>
+</div>
+<div class="paragraph">
+<p>Utilizzare le seguenti intestazioni in base alle esigenze:</p>
+</div>
+<div class="paragraph">
+<div class="title">Di cosa hai bisogno</div>
+<p><em>Le informazioni necessarie all'utente per completare l'attività.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">A proposito di questa attività</div>
+<p><em>Alcune informazioni contestuali aggiuntive che l'utente potrebbe aver bisogno di conoscere su questa attività.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">Fasi</div>
+<p><em>I singoli passaggi per completare l'attività.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">Quali sono le prossime novità?</div>
+<p><em>Cosa fare l'utente.</em></p>
+</div>
+<div class="paragraph">
+<p>Ciascuno di questi deve includere un . subito prima del testo, in questo modo:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>.What you'll need
+.About this task
+.Steps
+.What's next?</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Questa sintassi applica il testo in grassetto in un carattere più grande.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="sintassi-dei-comandi">Sintassi dei comandi</h3>
+<div class="paragraph">
+<p>Quando si fornisce l'input del comando, racchiudere il comando all'interno di ` per applicare il font monospazio:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>`volume show -is-encrypted true`</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ecco come si presenta:</p>
+</div>
+<div class="paragraph">
+<p><code>volume show -is-encrypted true</code></p>
+</div>
+<div class="paragraph">
+<p>Per l'output dei comandi o per gli esempi di comandi, utilizzare la seguente sintassi:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>----
+cluster2::&gt; volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>I quattro trattini consentono di inserire righe di testo separate che appaiono insieme. Ecco il risultato:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cluster2::&gt; volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="testo-variabile">Testo variabile</h3>
+<div class="paragraph">
+<p>Nei comandi e nell'output dei comandi, racchiudere il testo variabile tra i caratteri di sottolineatura per applicare il corsivo.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>`vserver nfs modify -vserver _name_ -showmount enabled`</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Di seguito viene riportato l'aspetto del comando e del testo della variabile:</p>
+</div>
+<div class="paragraph">
+<p><code>vserver nfs modify -vserver <em>name</em> -showmount enabled</code></p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/note.svg" alt="Nota">
+</td>
+<td class="content">
+I caratteri di sottolineatura non sono attualmente supportati con l'evidenziazione della sintassi del codice.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="evidenziazione-della-sintassi-del-codice">Evidenziazione della sintassi del codice</h3>
+<div class="paragraph">
+<p>L'evidenziazione della sintassi del codice offre una soluzione incentrata sugli sviluppatori per la documentazione dei linguaggi più diffusi.</p>
+</div>
+<div class="paragraph">
+<p><strong>Esempio di output 1</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-http" data-lang="http">POST https://netapp-cloud-account.auth0.com/oauth/token
+Header: Content-Type: application/json
+Body:
+{
+              "username": "&lt;user_email&gt;",
+              "scope": "profile",
+              "audience": "https://api.cloud.netapp.com",
+              "client_id": "UaVhOIXMWQs5i1WdDxauXe5Mqkb34NJQ",
+              "grant_type": "password",
+              "password": "&lt;user_password&gt;"
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Esempio di output 2</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">[
+    {
+        "header": {
+            "requestId": "init",
+            "clientId": "init",
+            "agentId": "init"
+        },
+        "payload": {
+            "init": {}
+        },
+        "id": "5801"
+    }
+]</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Lingue supportate</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>bash</p>
+</li>
+<li>
+<p>arricciatura</p>
+</li>
+<li>
+<p>https</p>
+</li>
+<li>
+<p>json</p>
+</li>
+<li>
+<p>powershell</p>
+</li>
+<li>
+<p>marionetta</p>
+</li>
+<li>
+<p>python</p>
+</li>
+<li>
+<p>yaml</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Implementazione</strong></p>
+</div>
+<div class="paragraph">
+<p>Copiare e incollare la seguente sintassi, quindi aggiungere una lingua supportata e il codice:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[source,&lt;language&gt;]
+&lt;code&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ad esempio:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[source,curl]
+curl -s https:///v1/ \
+-H accept:application/json \
+-H "Content-type: application/json" \
+-H api-key: \
+-H secret-key: \
+-X [GET,POST,PUT,DELETE]</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="riutilizzo-dei-contenuti">Riutilizzo dei contenuti</h3>
+<div class="paragraph">
+<p>Se hai un pezzo di contenuto che viene ripetuto in diverse pagine, puoi scriverlo una volta e riutilizzarlo in queste pagine. Il riutilizzo è possibile dall'interno dello stesso repository e tra diversi repository. Ecco come funziona.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Creare una cartella nel repository denominata _include</p>
+<div class="paragraph">
+<p><a href="https://github.com/NetAppDocs/cloud-tiering" target="_blank" rel="noopener">"Ad esempio, date un'occhiata al repository Cloud Tiering"</a>.</p>
+</div>
+</li>
+<li>
+<p>Aggiungere un file .adoc nella cartella che includa il contenuto che si desidera riutilizzare.</p>
+<div class="paragraph">
+<p>Può trattarsi di una frase, di un elenco, di una tabella, di una o più sezioni e così via. Non includere altro nel file, nessuna intestazione o altro.</p>
+</div>
+</li>
+<li>
+<p>Ora vai ai file in cui desideri riutilizzare il contenuto.</p>
+</li>
+<li>
+<p>Se stai riutilizzando il contenuto dall'interno del repository <em>same</em> di GitHub, usa la seguente sintassi su una riga da sola:</p>
+<div class="literalblock">
+<div class="content">
+<pre>include::_include/&lt;filename&gt;.adoc[]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ad esempio:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre> include::_include/s3regions.adoc[]
+. Se stai riutilizzando il contenuto in un repository _diverso_, usa la seguente sintassi su una riga da sola:</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>include::https://raw.githubusercontent.com/NetAppDocs/&lt;reponame&gt;/main/_include/&lt;filename&gt;.adoc[]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ad esempio:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>È tutto!</p>
+</div>
+<div class="paragraph">
+<p>Per ulteriori informazioni sulla direttiva include, <a href="https://asciidoctor.org/docs/user-manual/#include-directive" target="_blank" rel="noopener">"Consultare il manuale utente di AsciiDoctor"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/it-it/contribute/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/it-it/contribute/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">In questa pagina</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Condizioni per l'utilizzo</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Direttiva sulla privacy</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Direttiva sui cookie</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Impostazioni cookie</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">Invia feedback su questa pagina</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/it-it/contribute/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/it-it/contribute/js/prism.js'></script>
+      <script type="text/javascript" src='/it-it/contribute/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/it-it/contribute/js/ie-tabbed-blocks.js'></script>
+    <script src='/it-it/contribute/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
