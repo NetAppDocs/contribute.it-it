@@ -20,23 +20,14 @@ Il nostro stile è colloquiale ed empatico, ma siamo sempre professionali e ci m
 
 Scrivete come voi quando spiegate qualcosa a un collega professionista. Scrivere in un tono di conversazione ti aiuta a entrare in contatto con il tuo pubblico.
 
-
-TIP: Leggi la tua scrittura ad alta voce. Come ha affermato Elmore Leonard, romanziere e sceneggiatore americano, "se suona come scrivere, lo riscrivo".
-
 |===
 | Troppo formale | Troppo casuale | Il nostro stile 
 
 
-| Se si verificano problemi con il Cloud Tiering, è possibile visualizzare lo stato di salute sul pannello di controllo del cluster per determinare il motivo dell'errore. Lo stato di salute riflette lo stato del sistema ONTAP e di Service Connector. | Non è divertente quando si verificano errori. Non preoccuparti, consulta la dashboard cluster per scoprire cosa è successo e cosa è interessato. | In caso di guasto, Cloud Tiering visualizza lo stato di integrità "Failed" (guasto) nella dashboard del cluster. Visualizzare lo stato per ottenere informazioni sull'errore. 
+| Se riscontri problemi con il tiering di BlueXP, puoi visualizzare lo stato di salute nella dashboard del cluster per determinare il motivo dell'errore. Lo stato di salute riflette lo stato del sistema ONTAP e di Service Connector. | Non è divertente quando si verificano errori. Non preoccuparti, consulta la dashboard cluster per scoprire cosa è successo e cosa è interessato. | In caso di guasto, il tiering di BlueXP visualizza lo stato di integrità "Failed" (guasto) nella dashboard del cluster. Visualizzare lo stato per ottenere informazioni sull'errore. 
 
 
-| Puoi pagare per il tiering del cloud in diversi modi. Puoi pagare il tiering cloud tramite un abbonamento pay-as-you-go, puoi pagare tramite una licenza di tiering ONTAP o pagando tramite una combinazione di entrambi. Non puoi ottenere licenze da Cloud Manager, devi accedere direttamente al servizio Cloud Tiering per configurarlo. | Abbiamo tre modi per pagare il tiering cloud. Un abbonamento pay-as-you-go, naturalmente, ma anche una licenza di tiering ONTAP, o anche una combinazione di entrambi. Ma non puoi ottenere le licenze da Cloud Manager, quindi basta andare direttamente al servizio Cloud Tiering per configurarlo. | Paga il Tier cloud con un abbonamento pay-as-you-go, una licenza di tiering ONTAP o una combinazione di entrambi. Il licensing non è disponibile all'interno di Cloud Manager, ma puoi andare direttamente al servizio Cloud Tiering per configurarlo. 
-
-
-| Prima di eseguire il provisioning dello storage, è necessario individuare il cluster ONTAP da Cloud Manager. Una volta completato il rilevamento, è necessario aprire l'ambiente di lavoro per eseguire il provisioning dello storage. | Tutto ciò che fai è scoprire il tuo cluster ONTAP da Cloud Manager, quindi aprire l'ambiente di lavoro per iniziare il provisioning dello storage. Facile! | Dopo aver scoperto il cluster ONTAP da Cloud Manager, apri l'ambiente di lavoro per eseguire il provisioning dello storage. 
-
-
-| Analizzare gli attributi di benessere del sistema di storage in due modi, a seconda di ciò che si desidera analizzare: Selezionare il widget degli attributi di benessere sulla dashboard oppure selezionare Visualizza tutto per visualizzare l'intero elenco degli attributi di benessere. | Hai due modi per analizzare gli attributi di benessere del tuo sistema: Basta selezionare il widget attributi benessere sul dashboard. Oppure, se si desidera visualizzare l'intero elenco degli attributi benessere in una vista, selezionare Visualizza tutto. | Selezionare il widget degli attributi di benessere nella dashboard o selezionare Visualizza tutto per visualizzare l'elenco di tutte le azioni e i rischi. 
+| Prima di poter eseguire il provisioning dello storage, devi rilevare il cluster ONTAP da BlueXP. Una volta completato il rilevamento, è necessario aprire l'ambiente di lavoro per eseguire il provisioning dello storage. | Prima di tutto, scopri il cluster ONTAP di BlueXP, quindi apri l'ambiente di lavoro per avviare il provisioning dello storage. Facile! | Dopo aver scoperto il cluster ONTAP di BlueXP, apri l'ambiente di lavoro per eseguire il provisioning dello storage. 
 
 
 | All'avvio dell'installazione guidata, seguire le istruzioni della procedura guidata per configurare il nodo e unirlo al cluster. La procedura seguente illustra le fasi della procedura guidata. | Viene visualizzata la procedura guidata di installazione (quasi come una magia), che guida l'utente attraverso il semplice processo di configurazione del nodo e di connessione al cluster. | Seguire le istruzioni dell'installazione guidata per configurare il nodo e unirlo al cluster. 
@@ -46,13 +37,63 @@ TIP: Leggi la tua scrittura ad alta voce. Come ha affermato Elmore Leonard, roma
 |===
 
 
+=== Usare le contrazioni
+
+Le contrazioni rinforzano un <<Scrivere in maniera conversa,tono di conversazione>>e molte contrazioni sono facili da capire e tradurre.
+
+.Espandi per saperne di più
+[%collapsible]
+====
+* Usare contrazioni come queste, facili da capire e tradurre:
++
+|===
+
+
+| non lo sono | sei tu 
+
+
+| non lo è | lo siamo 
+
+
+| non lo era | è così 
+
+
+| non lo era | andiamo 
+
+
+| non lo ha fatto | noi (se è richiesto il futuro) 
+
+
+| non è così | non lo farà (se è richiesto un futuro teso) 
+
+
+| non farlo | (se è necessario un futuro teso) 
+|===
+* Non utilizzare contrazioni come queste, difficili da comprendere e tradurre:
++
+|===
+
+
+| sarebbe stato | dovrebbe avere 
+
+
+| non lo avremmo mai fatto | non dovrebbe avere 
+
+
+| potrebbe essere | non avrei potuto 
+|===
+
+
+====
+
+
 == Scrivete semplicemente
 
 Evitare parole grandi e confuse. Mantieni la semplicità. Stai spiegando qualcosa a un collega professionista, non mostrando il tuo vocabolario.
 
-**Invece di questo**: "Dissociare l'utente dal tuo account NetApp Cloud Central".
+**Piuttosto che questo**: "Dissociate l'utente dal vostro account NetApp Cloud Central."
 
-**Eseguire questa operazione**: "Rimuovere l'utente dal proprio account NetApp Cloud Central".
+**Fai questo**: "Rimuovi l'utente dal tuo account NetApp Cloud Central."
 
 
 
@@ -60,11 +101,19 @@ Evitare parole grandi e confuse. Mantieni la semplicità. Stai spiegando qualcos
 
 Frasi brevi e semplici semplificano la lettura o la scansione dei contenuti. È giusto usare una frase più lunga ogni ora ed allora ma seguirla con una più corta. Così.
 
-**Invece di questo**: "Per replicare i dati tra un sistema Cloud Volumes ONTAP in AWS e i sistemi ONTAP in altre reti, è necessario disporre di una connessione VPN tra Amazon VPC e l'altra rete, ad esempio Azure VNET o la rete aziendale."
+**Piuttosto che questo**: "Per replicare i dati tra un sistema Cloud Volumes ONTAP in AWS e sistemi ONTAP in altre reti, è necessario disporre di una connessione VPN tra Amazon VPC e l'altra rete, ad esempio Azure VNET o la rete aziendale."
 
-**Eseguire questa operazione**: "La replica dei dati tra le reti richiede una connessione tramite VPN. Ad esempio, tra Amazon VPC e la rete aziendale o tra AWS e Azure".
+**Fai questo**: "La replica dei dati tra le reti richiede la connessione tramite una VPN. Ad esempio fra Amazon VPC e la rete aziendale o fra AWS e Azure."
 
-Vedere anche <<minimalismo>>.
+Chiediti quanto segue:
+
+* Gli utenti hanno bisogno di questo contenuto in questa sede, in questo momento?
+* L'interfaccia utente è già abbastanza utile per l'utente? In caso contrario, quale guida aggiuntiva può essere aggiunta brevemente?
+* Posso presentare il contenuto in poche parole senza un suono troppo formale o troppo casuale?
+* Posso abbreviare o semplificare una frase lunga o suddividerla in due o più frasi?
+* Posso utilizzare un elenco per rendere il contenuto più scannable?
+* È possibile utilizzare un grafico per aumentare o sostituire un blocco di testo?
+
 
 
 
@@ -72,11 +121,70 @@ Vedere anche <<minimalismo>>.
 
 Evitare la voce passiva è una regola standard per la scrittura tecnica, ma è particolarmente importante utilizzare la voce attiva quando si desidera ascoltare una conversazione.
 
-**Invece di questo**: "Le autorizzazioni necessarie devono essere fornite prima di implementare il primo cluster".
 
-**Eseguire questa operazione**: "Fornire le autorizzazioni necessarie prima di implementare il primo cluster".
 
-Vedere anche <<voce attiva (rispetto a "voce passiva")>>.
+=== Voce attiva
+
+Utilizzare la voce attiva in modo che il soggetto della frase esegua l'azione del verbo. Questo significa tipicamente che il verbo segue l'oggetto della frase. La voce attiva continua a scrivere in modo chiaro e nitido. Utilizzare la voce attiva e indirizzare gli utenti direttamente come "utente", a meno che non si disponga di un motivo specifico per utilizzare la voce passiva.
+
+Ecco alcuni esempi di buona scrittura vocale attiva. Scrivi in questo modo:
+
+* Fornisci le autorizzazioni necessarie prima di implementare il primo cluster.
+* Se il sistema viene spento in modo errato, l'interfaccia visualizza un messaggio di avviso.
+* NetApp ha ricevuto il contratto.
+
+
+
+
+=== Voce passiva
+
+Nella voce passiva, il doer dell'azione è poco chiaro:
+
+* Se il sistema non viene spento correttamente, viene visualizzato un messaggio di avviso.
+* NetApp ha ricevuto il contratto.
+
+
+USA la voce passiva quando:
+
+* Non si sa chi o cosa ha eseguito l'azione.
+* Si desidera evitare di incolpare gli utenti per i risultati di un'azione.
+* Non è possibile scriverlo, ad esempio per alcune informazioni sui prerequisiti.
+
+
+
+
+=== Umore imperativo
+
+Utilizzare l'umore imperativo per i passaggi, le direttive, le richieste e le intestazioni per gli elenchi di azioni utente:
+
+* "Nella pagina ambienti di lavoro, fare clic su rileva e selezionare cluster ONTAP."
+* "Ruotare la maniglia della camma in modo che sia a filo con l'alimentazione."
+
+
+Prendere in considerazione l'utilizzo della voce imperativa per sostituire la voce passiva:
+
+**Piuttosto che questo**: "Le autorizzazioni richieste devono essere fornite prima di distribuire il primo cluster."
+
+**Fate questo**: "Fornite le autorizzazioni necessarie prima di distribuire il vostro primo cluster."
+
+Evitare di utilizzare la voce imperativa per incorporare i passaggi nelle informazioni concettuali e di riferimento.
+
+Per ulteriori convenzioni sui verbi, vedere:
+
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
+* https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
+
+
+
+
+== Scrivere contenuti coerenti
+
+"Scrivere come si parla quando si spiega qualcosa a un collega professionista" significa qualcosa di diverso per tutti. Il nostro stile professionale e al contempo conversazionale ci aiuta a metterci in contatto con gli utenti e aumenta la frequenza di incoerenze minori tra più autori contributori:
+
+* Concentratevi su come rendere i contenuti chiari e facili da utilizzare. Se tutto il contenuto è chiaro e facile da usare, non importa piccole incoerenze.
+* Sia costante all'interno della pagina che state scrivendo.
+* Seguire sempre le linee guida in <<Scrivere per un pubblico globale>>.
+
 
 
 
@@ -86,69 +194,171 @@ NetApp ritiene che la documentazione del prodotto non debba contenere un linguag
 
 Durante la creazione di contenuti per i prodotti NetApp, evitare linguaggi che possano essere interpretati come degradanti, razzisti, sessisti o altrimenti oppressivi. Utilizza invece un linguaggio accessibile e accogliente per tutti coloro che hanno bisogno di utilizzare la documentazione. Ad esempio, invece di "master/slave", utilizzare "primario/secondario".
 
-Sappiamo che dobbiamo lavorare per rimuovere tutta la lingua non inclusa dalla nostra documentazione e dai nostri prodotti. Stiamo lavorando attivamente ai nostri standard e alle nostre Best practice e prevediamo di aggiornare questa sezione con ulteriori indicazioni in futuro.
+Utilizzare il linguaggio people-first in cui ci riferiamo prima alla persona, seguito dalla disabilità.
 
+Non usare lui, lui, la sua, lei, lei, o hers in riferimenti generici. Invece:
+
+* Riscrivere la frase per usare la seconda persona (voi).
+* Riscrivere la frase per avere un sostantivo e un pronome plurali.
+* Utilizzare "la" o "a" invece di un pronome (ad esempio, "il documento").
+* Fare riferimento al ruolo di una persona (ad esempio, lettore, dipendente, cliente o cliente).
+* Utilizzare il termine "persona" o "individuale".
+
+
+*Esempi di parole e frasi considerate inclusive o esclusive*
+
+[cols="50,50"]
+|===
+| Esempi inclusivi | Esempi esclusivi 
+
+
+| Primario/secondario | Master/slave 
+
+
+| Elenco consentito | Whitelist 
+
+
+| Elenco bloccato | Blacklist 
+
+
+| Arrestare | Uccidere 
+
+
+| Smette di rispondere | Aspetta 
+
+
+| Fine o Annulla | Interrompere 
+
+
+| Ora persona | Ora uomo 
+
+
+| Gli sviluppatori hanno bisogno di accedere ai server nei loro ambienti di sviluppo, ma non hanno bisogno di accedere ai server in Azure. | Uno sviluppatore ha bisogno di accedere ai server nel suo ambiente di sviluppo, ma non ha bisogno di accedere ai server in Azure. 
+
+
+| Persona cieca | Non vedenti 
+
+
+| Persona con visione bassa | Non vedenti 
+|===
 
 
 == Arrivare al punto
 
-Inizia con ciò che è importante per l'utente. Scopri cosa sta cercando di fare l'utente e concentrati sull'assistenza per il raggiungimento di tale obiettivo.
+Ogni pagina dovrebbe iniziare con ciò che è più importante per l'utente. Dobbiamo scoprire cosa sta cercando di fare l'utente e concentrarci sul suo contributo al raggiungimento di tale obiettivo. Per migliorare la capacità di scansione, è inoltre necessario aggiungere parole chiave all'inizio della frase.
 
-**Invece di questo**: "Cloud Sync può sincronizzare i dati da un server NFS a un altro server NFS utilizzando la crittografia data-in-flight. La crittografia dei dati può essere utile se si dispone di policy di sicurezza rigorose per il trasferimento dei dati sulle reti".
+Attenersi alle seguenti istruzioni generali:
 
-**Fate questo**: "Se la vostra azienda ha policy di sicurezza rigorose, utilizzate la crittografia data-in-flight per sincronizzare i dati tra server NFS in reti diverse".
+* Sii preciso.
+* Evitare le parole di riempimento.
+* Sii breve.
+* Utilizzare il testo formattato o gli elenchi puntati per evidenziare i punti chiave.
 
+
+*Esempi di arrivare al punto*
+
+|===
+| Buoni esempi | Esempi non validi 
+
+
+| Se la tua azienda dispone di rigide policy di sicurezza, utilizza la crittografia dei dati in-flight per sincronizzare i dati tra server NFS in reti diverse. | Cloud Sync può sincronizzare i dati da un server NFS a un altro server NFS utilizzando la crittografia dei dati in-flight. La crittografia dei dati può essere utile se si dispone di rigide politiche di sicurezza per il trasferimento dei dati sulle reti. 
+
+
+| Risparmia tempo creando un modello di documento che include gli stili, i formati e i layout di pagina utilizzati più spesso. Quindi, utilizzare il modello ogni volta che si crea un nuovo documento. | I modelli forniscono un punto di partenza per la creazione di nuovi documenti. Un modello può includere gli stili, i formati e i layout di pagina utilizzati di frequente. È consigliabile creare un modello se si utilizza spesso lo stesso layout e stile di pagina per i documenti. 
+
+
+| Astra Control offre tre modalità operative che puoi assegnare agli utenti per controllare con attenzione l'accesso tra Astra Control e l'ambiente cloud. | Astra Control ti consente di assegnare una delle tre modalità operative agli utenti nei tuoi account AWS. Queste modalità ti consentono di controllare con attenzione l'accesso tra Astra Control e il patrimonio cloud in base alle policy IT. 
+|===
 
 
 == Utilizza molti elementi visivi
 
-La maggior parte delle persone è un'attività di apprendimento visivo. Utilizza video, diagrammi e screenshot per migliorare l'apprendimento. La grafica aiuta anche a suddividere blocchi di testo.
+La maggior parte delle persone è un'attività di apprendimento visivo. Utilizza video, diagrammi e screenshot per migliorare l'apprendimento, suddividere i blocchi di testo e fornire un'indicazione visiva agli utenti riguardo a dove si trovano nelle istruzioni dell'attività.
+
+* Includere una frase che descrive l'immagine seguente: "L'illustrazione seguente mostra i LED dell'alimentazione CA sul pannello posteriore."
+* Fare riferimento alla posizione dell'illustrazione come "seguente" o "precedente", non "sopra" o "sotto".
+* Utilizzare testo alternativo sulla grafica integrata.
+* Se l'immagine è relativa a un passaggio, includere l'immagine subito dopo il passaggio e rientrato per allinearsi con il numero del passaggio.
+
+
+Best practice sulle schermate:
+
+* Non includere più di 5 screenshot per attività.
+* Non includere testo in una schermata. Utilizzare invece didascalie numerate.
+* Siate prudenti con gli screenshot che scegliete di includere. Le schermate possono diventare obsolete rapidamente.
+
+
+Best practice su video o animazioni:
+
+* I video devono avere una durata inferiore a 5 minuti.
+
 
 .Esempi
-* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html["Esempio n. 1"^]
-* https://docs.netapp.com/us-en/occm/task_getting_started_azure.html["Esempio n. 2"^]
+* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html["Esempio #1 Scopri le credenziali e i permessi di AWS"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Esempio #2 Proteggi i dati di un volume ONTAP con backup e recovery di BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Esempio #3 creazione di un piano di replica (mostra le schermate di un'attività)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-gcp-accounts.html#associate-a-marketplace-subscription-with-google-cloud-credentials["Esempio #4 Gestisci le credenziali nel video BlueXP"^]
 
-
-Vedere anche <<grafica>>.
 
 
 
 == Crea contenuto scannable
 
-Utilizzare intestazioni, elenchi e tabelle per aiutare gli utenti a cercare ciò che desiderano.
+Aiuta i lettori a trovare rapidamente i contenuti organizzando il testo sotto le intestazioni di sezione e utilizzando elenchi e tabelle. Intestazioni, frasi e paragrafi dovrebbero essere brevi e facili da leggere. Le informazioni più importanti devono essere fornite per prime.
 
 .Esempi
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Esempio n. 1"^]
-* https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html["Esempio n. 2"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Esempio n. 1"^]
+* https://docs.netapp.com/us-en/ontap-systems/asa-c800/install-detailed-guide.html["Esempio n. 2"^]
 
 
 
 
-== Concentrarsi su un obiettivo dell'utente o su un aspetto specifico di tale obiettivo
+== Creare flussi di lavoro che aiutino gli utenti a raggiungere gli obiettivi prefissati
 
-Se si descrive come completare una serie di attività, inserire tutto in una pagina in una serie di sezioni, incluse informazioni concettuali e basate su riferimenti. Non spezzare la tua pagina in diverse mini-pagine, che richiedono troppo clic. Allo stesso tempo, non creare lunghe pagine intimidatorie. USA il tuo giudizio migliore per decidere quando una pagina è troppo lunga.
+Gli utenti leggono i nostri contenuti per raggiungere un obiettivo specifico. Gli utenti vogliono trovare i contenuti di cui hanno bisogno, raggiungere i propri obiettivi e tornare a casa con le loro famiglie. Il nostro compito non è quello di documentare prodotti o funzioni. Il nostro compito è documentare gli obiettivi degli utenti. I flussi di lavoro sono il modo più diretto per aiutare gli utenti a raggiungere i propri obiettivi.
 
-.Esempi
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Esempio n. 1"^]
-* https://docs.netapp.com/us-en/occm/concept_ha.html["Esempio n. 2"^]
+Un flusso di lavoro è una serie di passaggi o sottoattività che descrivono come raggiungere un obiettivo dell'utente. L'ambito di un workflow è un obiettivo completo.
 
+Ad esempio, la procedura per creare un volume non sarebbe un workflow, perché la creazione di un volume in sé non è un obiettivo completo. La procedura per rendere lo storage disponibile per un server ESX potrebbe essere un workflow. I passaggi includono non solo la creazione di un volume, ma anche l'esportazione del volume, l'impostazione delle autorizzazioni necessarie, la creazione di un'interfaccia di rete e così via.
+
+I flussi di lavoro derivano dai casi di utilizzo dei clienti. Un flusso di lavoro mostra solo l'unico modo migliore per raggiungere l'obiettivo.
 
 
 
 == Organizzare i contenuti in base all'obiettivo dell'utente
 
-Aiuta gli utenti a trovare le informazioni di cui hanno bisogno quando ne hanno bisogno. Inserirli e disinserirli nei documenti il più rapidamente possibile, organizzando i contenuti come segue:
+Aiutare gli utenti a trovare rapidamente le informazioni organizzando i contenuti in base all'obiettivo che l'utente sta cercando di raggiungere. Questo standard si applica al sommario (navigazione) di un sito di documentazione, nonché alle singole pagine che appaiono sul sito.
 
-La prima voce nella navigazione a sinistra (livello alto):: Organizzare i contenuti in base agli obiettivi che l'utente sta cercando di raggiungere. Ad esempio, per iniziare o per proteggere i dati.
-Le seconde voci della navigazione (livello medio):: Organizza i contenuti in base alle attività più ampie che compongono gli obiettivi. Ad esempio, la configurazione del disaster recovery o la configurazione della protezione dei dati.
-Singole pagine (livello dettagliato):: Organizza i contenuti intorno alle singole attività che compongono le attività più ampie, con ciascuna incentrata su un singolo apprendimento o su un aspetto di questa attività più ampia. Ad esempio, le attività necessarie per impostare il disaster recovery.
+Organizzare il contenuto come segue:
+
+La prima voce nella navigazione a sinistra (livello alto):: Organizzare il contenuto intorno agli obiettivi che l'utente sta cercando di raggiungere. Ad esempio, la prima voce nella navigazione del sito potrebbe essere "Get Started" (inizia) o "Protect data" (Proteggi dati).
+Le voci di secondo livello nella navigazione per il sito della documentazione (livello medio):: Organizza i contenuti in base alle attività più ampie che compongono gli obiettivi.
++
+--
+Ad esempio, la sezione "per iniziare" potrebbe includere le seguenti pagine:
+
+* Preparazione per l'installazione
+* Installare e configurare <product name>
+* Impostare la licenza
+* Cosa fare in seguito
+
+
+--
+Singole pagine (livello dettagliato):: In ogni pagina, organizzare il contenuto intorno alle singole attività che compongono le attività più ampie. Ad esempio, i contenuti che gli utenti devono preparare per l'installazione o per configurare il disaster recovery.
++
+--
+Una pagina può descrivere una singola attività o più attività. Se sono presenti più attività, è necessario descriverle in sezioni separate della pagina. Ogni sezione dovrebbe concentrarsi su un singolo aspetto di apprendimento o di esecuzione dell'attività più ampia. Ciò potrebbe includere alcune informazioni concettuali e basate sui riferimenti necessarie per completare l'attività.
+
+--
 
 
 
 
 == Scrivere per un pubblico globale
 
-Scriviamo per i nostri clienti e partner in tutto il mondo e gran parte dei nostri contenuti viene tradotto utilizzando strumenti di traduzione automatica neurale o traduzione umana. Segui queste linee guida per una scrittura più chiara e una traduzione più semplice:
+La nostra documentazione è letta da molti utenti la cui lingua principale non è l'inglese. Traduciamo i nostri contenuti in altre lingue utilizzando gli strumenti di traduzione automatica neurale o la traduzione umana. Per supportare il nostro pubblico globale, scriviamo contenuti facili da leggere e da tradurre.
+
+Segui queste linee guida per scrivere per un pubblico globale:
 
 * Scrivere frasi brevi e semplici.
 * Utilizzare la grammatica e la punteggiatura standard.
@@ -172,35 +382,9 @@ Scriviamo per i nostri clienti e partner in tutto il mondo e gran parte dei nost
 
 
 
-=== voce attiva (rispetto a "voce passiva")
+=== voce attiva (rispetto a voce passiva)
 
-Nella voce attiva, l'oggetto della frase è il doer dell'azione:
-
-* Se il sistema non viene arrestato correttamente, l'interfaccia visualizza un messaggio di avviso.
-* NetApp ha ricevuto il contratto.
-
-
-La voce attiva continua a scrivere in modo chiaro e nitido. Utilizzare la voce attiva e indirizzare gli utenti direttamente come "utente", a meno che non si disponga di un motivo specifico per utilizzare la voce passiva.
-
-Nella voce passiva, il doer dell'azione è poco chiaro:
-
-* Se il sistema non viene spento correttamente, viene visualizzato un messaggio di avviso.
-* NetApp ha ricevuto il contratto.
-
-
-USA la voce passiva quando:
-
-* Non si sa chi o cosa ha eseguito l'azione.
-* Si desidera evitare di incolpare gli utenti per i risultati di un'azione.
-* Non è possibile scriverlo, ad esempio per alcune informazioni sui prerequisiti.
-
-
-Per ulteriori convenzioni sui verbi, vedere:
-
-* https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
-* https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
-* https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
-
+Fare riferimento a. <<Scrivere attivamente>>.
 
 
 
@@ -224,9 +408,9 @@ Fare attenzione per avvisare gli utenti in merito a condizioni o procedure che p
 
 
 
-=== dopo (contro "una volta")
+=== dopo (rispetto a "una volta")
 
-* "Utilizzare "dopo" per indicare una cronologia: "Accendere il computer dopo averlo collegato"."
+* Utilizzare "dopo" per indicare una cronologia: "Accendere il computer dopo averlo collegato."
 * Utilizzare "una volta" solo per indicare "una volta".
 
 
@@ -242,31 +426,31 @@ Fare attenzione per avvisare gli utenti in merito a condizioni o procedure che p
 
 === e/o.
 
-Scegliere il termine più preciso, se disponibile. Se nessuno dei due termini è più preciso dell'altro, utilizzare "and/OR".
+Scegliere il termine più preciso, se disponibile. Se nessuno dei due termini è più preciso dell'altro, utilizzare "e/o".
 
 
 
 === come
 
-Non utilizzare "come" per "perché".
+Non utilizzare "come" per indicare "perché".
 
 
 
-=== utilizzando (invece di "utilizzare" o "con")
+=== utilizzando (anziché "utilizzando" o "con")
 
-* Utilizzare "utilizzando" quando l'entità che sta utilizzando è l'oggetto: "È possibile aggiungere nuovi componenti al repository utilizzando il menu componenti".
-* È possibile iniziare una frase con "utilizzo" o "con", talvolta accettabili con i nomi dei prodotti: "Utilizzando SnapDrive, è possibile gestire dischi virtuali e copie Snapshot in un ambiente Windows".
-
-
+* Utilizzare "usando" quando l'entità che sta facendo l'uso è l'oggetto: "È possibile aggiungere nuovi componenti al repository utilizzando il menu componenti."
+* È possibile iniziare una frase "utilizzando" o "con", che a volte sono accettabili con i nomi dei prodotti: "Utilizzando SnapDrive, è possibile gestire dischi virtuali e copie Snapshot in un ambiente Windows."
 
 
-=== can (rispetto a "potrebbe", "potrebbe", "dovrebbe" o "deve")
+
+
+=== can (rispetto a "potrebbe", "maggio", "dovrebbe" o "deve")
 
 * Utilizzare "CAN" per indicare la capacità: "È possibile confermare le modifiche in qualsiasi momento durante questa procedura."
-* "Utilizzare "potrebbe" per indicare la possibilità: "Il download di più programmi potrebbe influire sul tempo di elaborazione"."
-* Non utilizzare "può", che è ambiguo perché potrebbe significare capacità o autorizzazione.
-* Utilizzare "dovrebbe" per indicare un'azione consigliata ma facoltativa. Prendere in considerazione l'utilizzo di una frase alternativa, ad esempio "consigliamo".
-* Evitare di utilizzare "must" perché è passivo. Considerare la possibilità di riaffermare il pensiero come un'istruzione utilizzando la voce imperativa. Se si utilizza "must", utilizzarlo per indicare un'azione o una condizione richiesta.
+* Utilizzare "potrebbe" per indicare la possibilità: "Il download di più programmi potrebbe influire sul tempo di elaborazione."
+* Non utilizzare "può", che è ambiguo perché potrebbe significare capacità o permesso.
+* Utilizzare "dovrebbe" per indicare un'azione consigliata ma facoltativa. Si consiglia di utilizzare una frase alternativa, ad esempio "si consiglia".
+* Evitare di utilizzare "must" perché è <<Scrivere attivamente,passivo>>. Considerare la possibilità di riaffermare il pensiero come un'istruzione utilizzando la voce imperativa. Se si utilizza "must", utilizzarlo per indicare un'azione o una condizione richiesta.
 
 
 
@@ -284,77 +468,30 @@ USA la maiuscola in stile frase (minuscolo) per quasi tutto. Solo maiuscolo:
 
 
 
-=== Avvisi DI ATTENZIONE
+=== avvisi di attenzione
 
-Fare attenzione per avvisare gli utenti in merito a condizioni o procedure che possono causare lesioni personali non letali o estremamente pericolose.
-
-Vedere <<ammonizioni>> per altre etichette che identificano il contenuto separatamente dal flusso di contenuto principale.
-
-
-
-=== coerenza
-
-"Scrivere come se si parlasse quando si spiega qualcosa a un collega professionista" significa qualcosa di diverso per tutti. Il nostro stile di conversazione professionale ci aiuta a collegarci con gli utenti e aumenta la frequenza di piccole incoerenze tra diversi autori che hanno contribuito:
-
-* Concentratevi su come rendere i contenuti chiari e facili da utilizzare. Se tutto il contenuto è chiaro e facile da usare, non importa piccole incoerenze.
-* Sia costante all'interno della pagina che state scrivendo.
-* Seguire sempre le linee guida in <<Scrivere per un pubblico globale>>.
-
+Fare riferimento a. <<ammonizioni>>.
 
 
 
 === contrazioni
 
-Le contrazioni rafforzano un tono di conversazione e molte contrazioni sono facili da comprendere e tradurre.
-
-.Utilizzare contrazioni come queste, che sono facili da comprendere e tradurre:
-* non lo sono
-* non posso
-* non lo ha fatto
-* non è così
-* non farlo
-* non lo è
-* è così
-* andiamo
-* non lo era
-* lo siamo
-* non lo era
-* sei tu
-
-
-.Non utilizzare queste contrazioni quando è necessario un periodo di tempo futuro:
-* ci occuperemo noi
-* no
-* la massima tranquillità
-
-
-.Non utilizzare contrazioni come queste, difficili da comprendere e tradurre:
-* potrebbe essere
-* non avrei potuto
-* dovrebbe avere
-* non dovrebbe avere
-* sarebbe stato
-* non lo avremmo mai fatto
+Utilizzare <<contrazioni,contrazioni>> come parte della scrittura conversazionale.
 
 
 
+=== verifica (anziché "conferma" o "verifica")
 
-=== verifica (rispetto a "conferma" o "verifica")
-
-* Utilizzare "assicurarsi" per indicare "assicurarsi". Includere "che", a seconda dei casi: "Assicurarsi che vi sia spazio vuoto sufficiente intorno alle illustrazioni".
-* Non utilizzare mai "assicurare" per implicare una promessa o una garanzia: "Utilizzare Cloud Manager per garantire che sia possibile eseguire il provisioning di volumi NFS e CIFS su cluster ONTAP".
-* Utilizzare "conferma" o "verifica" quando si desidera che l'utente controlli un elemento già esistente o già accaduto: "Verificare che NFS sia configurato sul cluster".
+* Utilizzare "assicurarsi" per indicare "assicurarsi". Includere "che", come appropriato: "Assicurarsi che vi sia sufficiente spazio bianco intorno alle illustrazioni."
+* Non utilizzare mai "garantire" per implicare una promessa o una garanzia: "Utilizzare Cloud Manager per garantire il provisioning di volumi NFS e CIFS su cluster ONTAP."
+* Utilizzare "confirm" o "verify" quando si intende che l'utente dovrebbe controllare due volte qualcosa che già esiste o che è già accaduto: "Verificare che NFS sia configurato sul cluster."
 
 
 
 
 === grafica
 
-Valuta continuamente i contenuti per le opportunità in modo da includere illustrazioni, diagrammi, diagrammi di flusso, screen capture o altri riferimenti visivi utili. La grafica spesso trasmette concetti e passaggi complessi in modo più chiaro rispetto al testo.
-
-* "Includere una descrizione delle informazioni che l'illustrazione deve comunicare: "La seguente illustrazione mostra i LED dell'alimentatore CA sul pannello posteriore."
-* Fare riferimento alla posizione dell'illustrazione come "seguente" o "precedente", non "sopra" o "sotto".
-
+Fare riferimento a. <<Utilizza molti elementi visivi>>.
 
 
 
@@ -363,7 +500,6 @@ Valuta continuamente i contenuti per le opportunità in modo da includere illust
 Se non diversamente specificato, seguire le convenzioni di grammatica, punteggiatura e ortografia descritte in:
 
 * https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
-* https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
 * https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
 
 
@@ -373,16 +509,16 @@ Se non diversamente specificato, seguire le convenzioni di grammatica, punteggia
 
 Non utilizzare "se non" da solo per fare riferimento alla frase precedente:
 
-**Piuttosto che questo**: "Il computer dovrebbe essere spento. In caso contrario, spegnerlo."
+* **Piuttosto che questo**: "Il calcolatore dovrebbe essere spento. In caso contrario, disattivalo."
+* **Eseguire questa operazione**: "Verificare che il computer sia spento."
 
-**Eseguire questa operazione**: "Verificare che il computer sia spento."
 
 
 
 === se (rispetto a "se" o "quando")
 
 * Utilizzare "if" per indicare una condizione, ad esempio nelle costruzioni "if this, then that".
-* Utilizzare l'opzione "se" in presenza di una condizione "o meno" dichiarata o implicita. Per semplificare la traduzione, spesso è meglio sostituire "se" o meno con "se" da solo.
+* Utilizzare "se" in presenza di una condizione dichiarata o implicita "o meno". Per semplificare la traduzione, spesso è meglio sostituire "se" o meno con "se" da solo.
 * Utilizzare "quando" per indicare un intervallo di tempo.
 
 
@@ -390,33 +526,13 @@ Non utilizzare "se non" da solo per fare riferimento alla frase precedente:
 
 === voce imperativa
 
-* Utilizzare la voce imperativa per le procedure, le direttive, le richieste e le intestazioni degli elenchi delle azioni dell'utente:
-+
-** "Nella pagina ambienti di lavoro, fare clic su Scopri e selezionare cluster ONTAP."
-** "Ruotare la maniglia della camma in modo che sia a filo con l'alimentatore."
-
-
-* Prendere in considerazione l'utilizzo della voce imperativa per sostituire la voce passiva:
-+
-**Invece di questo**: "Le autorizzazioni necessarie devono essere fornite prima di implementare il primo cluster".
-
-+
-**Eseguire questa operazione**: "Fornire le autorizzazioni necessarie prima di implementare il primo cluster".
-
-* Evitare di utilizzare la voce imperativa per incorporare i passaggi nelle informazioni concettuali e di riferimento.
-
-
-
-
-=== Indirizzi IP e IPv6
-
-Per gli indirizzi IP (incluso IPv6) negli esempi, è sicuro includere qualsiasi indirizzo che inizia con "10.x".
+Fare riferimento a. <<Scrivere attivamente>>.
 
 
 
 === funzionalità o release future
 
-Non fare riferimento ai tempi o al contenuto delle prossime release o funzionalità dei prodotti, se non dire che una funzione o funzione non è "attualmente supportata".
+Non fare riferimento ai tempi o al contenuto delle prossime versioni o funzionalità dei prodotti, se non dire che una funzione o funzione non è "attualmente supportata".
 
 
 
@@ -446,26 +562,13 @@ Gli elenchi di informazioni sono generalmente più facili da acquisire e assorbi
 
 === localizzazione
 
-Vedere <<Scrivere per un pubblico globale>>.
+Fare riferimento a. <<Scrivere per un pubblico globale>>.
 
 
 
 === minimalismo
 
-* Gli utenti hanno bisogno di questo contenuto in questa sede, in questo momento?
-* Posso presentare il contenuto in poche parole senza un suono troppo formale o troppo casuale?
-* Posso abbreviare o semplificare una frase lunga o suddividerla in due o più frasi?
-* Posso utilizzare un elenco per rendere il contenuto più scannable?
-* È possibile utilizzare un grafico per aumentare o sostituire un blocco di testo?
-
-
-
-
-=== ANNOTARE le informazioni
-
-Utilizzare LA NOTA per informazioni importanti che devono essere distinte dal resto del testo. Evitare di utilizzare UNA NOTA per le informazioni "piacevoli da conoscere" che non sono necessarie per gli utenti per conoscere l'attività o per completare l'attività.
-
-Vedere <<ammonizioni>> per altre etichette che identificano il contenuto separatamente dal flusso di contenuto principale.
+Fare riferimento a. <<Scrivere in maniera minima>>.
 
 
 
@@ -479,12 +582,7 @@ Vedere <<ammonizioni>> per altre etichette che identificano il contenuto separat
 
 * Utilizzare parole per numeri inferiori a 10.
 * Se una frase contiene una combinazione di numeri inferiori a 10 e superiori a 10, utilizzare i numeri arabi per tutti i numeri.
-* Per ulteriori convenzioni numeriche, vedere:
-+
-** https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
-** https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
-
-
+* Per ulteriori convenzioni numeriche, vedere https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^].
 
 
 
@@ -502,27 +600,27 @@ I prerequisiti identificano le condizioni che devono esistere o le azioni che gl
 * Identificare la natura del contenuto con un'intestazione, ad esempio "Prerequisiti", "prima di iniziare" o "prima di iniziare".
 * Utilizzare la voce passiva per la formulazione dei prerequisiti, se è opportuno:
 +
-** "NFS o CIFS devono essere impostati sul cluster."
-** "Per aggiungere il cluster a Cloud Manager, è necessario disporre dell'indirizzo IP di gestione del cluster e della password dell'account utente amministratore."
+** "NFS o CIFS devono essere configurati nel cluster."
+** "Per aggiungere il cluster a Cloud Manager, è necessario disporre dell'indirizzo IP di gestione cluster e della password per l'account utente amministratore."
 
 
-* Chiarire il prerequisito secondo necessità: "NFS o CIFS devono essere impostati sul cluster. È possibile configurare NFS e CIFS utilizzando System Manager o la CLI."
+* Chiarire il prerequisito secondo necessità: "NFS o CIFS devono essere configurati nel cluster. Puoi configurare NFS e CIFS usando System Manager o la CLI."
 * Considerare altri modi per presentare le informazioni, ad esempio se sarebbe opportuno modificare il contenuto come primo passo dell'attività corrente:
 +
-** Prerequisito: "È necessario disporre delle autorizzazioni necessarie prima di implementare il primo cluster."
-** Fase: "Fornire le autorizzazioni necessarie per implementare il primo cluster".
+** Prerequisito: "È necessario disporre delle autorizzazioni necessarie prima di distribuire il primo cluster."
+** Passaggio: "Fornire le autorizzazioni necessarie per implementare il primo cluster."
 
 
 
 
 
 
-=== precedente (rispetto a "precedente", "precedente" o "precedente")
+=== precedente (rispetto a "prima", "precedente" o "precedente")
 
 * Se possibile, sostituire "precedente" con "precedente".
 * Se non è possibile utilizzare "prima", utilizzare "precedente" come aggettivo per fare riferimento a qualcosa che si è verificato prima nel tempo o con un ordine di importanza superiore.
-* Utilizzare "precedente" per indicare un evento verificatosi in un momento non specificato in precedenza.
-* Utilizzare "precedente" per indicare qualcosa che si è verificato immediatamente prima.
+* Utilizzare "Previous" (precedente) per indicare qualcosa che si è verificato in precedenza a un orario non specificato.
+* Utilizzare "precedente" per indicare qualcosa che si è verificato immediatamente in precedenza.
 
 
 
@@ -531,12 +629,11 @@ I prerequisiti identificano le condizioni che devono esistere o le azioni che gl
 
 Mantieni la semplicità. In generale, maggiore è la punteggiatura inclusa in una frase, maggiore è il numero di cellule cerebrali necessarie per comprenderle.
 
-* Utilizzare una virgola seriale (virgola Oxford) prima della combinazione ("e" o "o") in un elenco di tre o più elementi.
+* Utilizzare una virgola seriale (virgola Oxford) prima della congiunzione ("e" o "o") in un elenco narrativo di tre o più elementi.
 * Limitare l'uso di punti e virgola e punti e virgola.
 * Se non diversamente specificato, seguire le convenzioni di grammatica, punteggiatura e ortografia descritte in:
 +
 ** https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
-** https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
 ** https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
 
 
@@ -555,27 +652,18 @@ Utilizzare "da" per indicare un intervallo di tempo. Non utilizzare "da" per ind
 Se non diversamente specificato, seguire le convenzioni di grammatica, punteggiatura e ortografia descritte in:
 
 * https://docs.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^]
-* https://www.chicagomanualofstyle.org/home.html["Manuale di stile di Chicago"^]
 * https://www.merriam-webster.com/["Merriam-Webster Dictionary Online"^]
 
 
 
 
-=== questo (rispetto a "quale" o "chi")
+=== quello (contro "quale" o "chi")
 
-* Utilizzare "that" (senza una virgola finale) per introdurre le clausole necessarie affinché la frase abbia senso.
-* "Utilizzare "questo" anche se la frase è chiara in inglese senza: "Verificare che il computer sia spento"."
-* Utilizzare "quali" (con una virgola finale) per introdurre clausole che aggiungono informazioni di supporto, ma non sono necessarie per la frase.
-* Utilizzare "chi" per introdurre clausole relative alle persone.
+* Utilizzare "that" (senza virgola finale) per introdurre clausole necessarie affinché la frase abbia senso.
+* Utilizzare "questo" anche se la frase è chiara in inglese senza di essa: "Verificare che il computer sia spento."
+* Utilizzare "which" (con una virgola finale) per introdurre clausole che aggiungono informazioni di supporto, ma non sono necessarie perché la frase abbia senso.
+* Utilizzare "WHO" per introdurre clausole relative alle persone.
 
-
-
-
-=== Informazioni SUI SUGGERIMENTI
-
-USA LA PUNTA con parsimonia, se del tutto, perché la nostra policy è quella di documentare sempre le informazioni sulle Best practice per impostazione predefinita. Se necessario, utilizza IL SUGGERIMENTO per contenere informazioni sulle Best practice che aiutano gli utenti a utilizzare un prodotto o a completare una fase o un'attività in modo semplice ed efficiente.
-
-Vedere <<ammonizioni>> per altre etichette che identificano il contenuto separatamente dal flusso di contenuto principale.
 
 
 
@@ -593,63 +681,58 @@ Nella maggior parte dei nostri contenuti tecnici non sono inclusi i simboli dei 
 
 === interfaccia utente
 
-Fare affidamento sull'interfaccia il più possibile per guidare l'utente.
+Quando si documenta un'interfaccia utente, fare affidamento sull'interfaccia il più possibile per guidare l'utente.
 
+.Linee guida generali
+Utilizzare uno stile semplice e mimale quando si documentano le interfacce utente.
 
-
-==== Linee guida generali
-
-Il nostro stile per la documentazione delle interfacce utente è semplice e minimo:
-
-* Si supponga che l'utente stia utilizzando l'interfaccia durante la lettura del contenuto.
-* Affidati all'interfaccia per guidare l'utente:
+[%collapsible]
+====
+* Si supponga che l'utente stia utilizzando l'interfaccia durante la lettura del contenuto:
 +
 ** Non guidare l'utente attraverso una procedura guidata o una schermata passo dopo passo. Indicate solo cose importanti che non sono evidenti dall'interfaccia.
-** Non includere "fare clic su OK" o "fare clic su Salva" o "il volume è stato creato" o altro elemento ovvio per qualcuno che esegue l'attività.
+** Non includere "fare clic su OK" o "fare clic su Salva" o "il volume è stato creato" o qualsiasi altra cosa ovvia a qualcuno che esegue l'attività.
 ** Presupporre il successo. A meno che non si preveda un'operazione che non abbia esito positivo per la maggior parte del tempo, non documentare il percorso di errore. Si supponga che l'interfaccia fornisca una guida adeguata.
 
 
-* Non fare clic su "Click". Utilizzare sempre "seleziona" perché la parola copre mouse, touch, tastiera e qualsiasi altro modo di scegliere.
+* Non utilizzare affatto il "clic". Utilizzare sempre "SELECT" perché questa parola copre mouse, touch, tastiera e qualsiasi altro modo di fare una scelta.
 * Concentrate i contenuti su un flusso di lavoro che si adatta a un caso di utilizzo del cliente e su come portare l'utente nel posto giusto nell'interfaccia per avviare il flusso di lavoro.
 * Documentare sempre l'unico modo migliore per raggiungere l'obiettivo dell'utente.
 * Se il flusso di lavoro richiede una decisione significativa, assicurarsi di documentare una regola decisionale.
 * Utilizzare il numero minimo di passaggi necessari per la maggior parte degli utenti.
 
 
+====
+.Assegnare un nome agli elementi dell'interfaccia utente
+Evitare di documentare il livello di granularità che richiede la denominazione degli elementi dell'interfaccia utente.
 
-
-==== Assegnare un nome agli elementi dell'interfaccia utente
-
-Evitare di documentare il livello di granularità che richiede la denominazione degli elementi dell'interfaccia utente. Affidati all'interfaccia per guidare l'utente attraverso le specifiche dell'interazione. Se è necessario ottenere questo specifico, assegnare un nome all'etichetta sull'elemento. Ad esempio, "selezionare il volume desiderato" o "selezionare "Usa volume esistente". Non è necessario assegnare un nome a menu, pulsanti di opzione o caselle di controllo, ma è sufficiente utilizzare l'etichetta.
+[%collapsible]
+====
+Affidati all'interfaccia per guidare l'utente attraverso le specifiche dell'interazione. Se è necessario ottenere questo specifico, assegnare un nome all'etichetta sull'elemento. Ad esempio, "selezionare il volume desiderato" o "selezionare "Usa volume esistente"." Non è necessario assegnare un nome a menu, pulsanti di opzione o caselle di controllo, ma è sufficiente utilizzare l'etichetta.
 
 Per le icone che gli utenti devono selezionare, utilizzare un'immagine dell'icona. Non cercare di denominarlo. Questa regola si applica alle icone come freccia, matita, ingranaggio, kabob, hamburger, e così via.
 
+====
+.Che rappresenta le etichette visualizzate
+Seguire l'ortografia e le maiuscole utilizzate dall'interfaccia utente per identificare le etichette.
 
+[%collapsible]
+====
+Se un'etichetta è seguita da ellissi, non includere i ellissi quando si assegna un nome all'oggetto. Incoraggiare gli sviluppatori a utilizzare le maiuscole in stile titolo per le etichette dell'interfaccia utente, in modo da semplificarne la scrittura.
 
-==== Che rappresenta le etichette visualizzate
+====
+.Utilizzo di screen capture
+Utilizzare le schermate con parsimonia.
 
-Seguire l'ortografia e le maiuscole utilizzate dall'interfaccia utente per identificare le etichette. Se un'etichetta è seguita da ellissi, non includere i ellissi quando si assegna un nome all'oggetto. Incoraggiare gli sviluppatori a utilizzare le maiuscole in stile titolo per le etichette dell'interfaccia utente, in modo da semplificarne la scrittura.
+[%collapsible]
+====
+Una schermata occasionale ("screenshot") aiuta gli utenti a essere sicuri di trovarsi nella posizione giusta in un'interfaccia quando avviano o cambiano le interfacce durante un flusso di lavoro. Non utilizzare le schermate acquisite per visualizzare i dati da inserire o il valore da selezionare.
 
-
-
-==== Utilizzo di screen capture
-
-Una cattura occasionale dello schermo ("screenshot") aiuta gli utenti a essere sicuri che si trovino nel posto giusto in un'interfaccia quando avviano o cambiano le interfacce durante un flusso di lavoro. Non utilizzare le schermate acquisite per visualizzare i dati da inserire o il valore da selezionare.
-
+====
 
 
 === mentre (rispetto a "anche se")
 
-* Utilizzare "while" per indicare un evento che si verifica nel tempo.
-* Utilizzare "sebbene" per rappresentare un'attività che si verifica quasi contemporaneamente o poco dopo un'altra attività.
+* Utilizzare "While" per indicare un evento che si verifica nel tempo.
+* Utilizzare "anche se" per rappresentare un'attività che si verifica quasi contemporaneamente o poco dopo un'altra attività.
 
-
-
-
-=== workflow
-
-Gli utenti leggono i nostri contenuti per raggiungere un obiettivo specifico. Gli utenti vogliono trovare i contenuti di cui hanno bisogno, raggiungere i propri obiettivi e tornare a casa con le loro famiglie. Il nostro compito non è quello di documentare prodotti o funzionalità, il nostro compito è quello di documentare gli obiettivi degli utenti. I flussi di lavoro sono il modo più diretto per aiutare gli utenti a raggiungere i propri obiettivi.
-
-Un flusso di lavoro è una serie di passaggi o sottoattività che descrivono come raggiungere un obiettivo dell'utente. L'ambito di un workflow è un obiettivo completo.
-
-Ad esempio, la procedura per creare un volume non sarebbe un workflow, perché la creazione di un volume in sé non è un obiettivo completo. La procedura per rendere lo storage disponibile per un server ESX potrebbe essere un workflow. I passaggi includono non solo la creazione di un volume, ma anche l'esportazione del volume, l'impostazione delle autorizzazioni necessarie, la creazione di un'interfaccia di rete e così via. I flussi di lavoro derivano dai casi di utilizzo dei clienti. Un flusso di lavoro mostra solo l'unico modo migliore per raggiungere l'obiettivo.
