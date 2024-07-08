@@ -382,6 +382,12 @@ Segui queste linee guida per scrivere per un pubblico globale:
 
 
 
+=== acronimi e abbreviazioni
+
+Utilizzare acronimi e abbreviazioni ben noti per la familiarità, ma evitare quelli oscuri che potrebbero influenzare negativamente la chiarezza e la reperibilità. Per ulteriori convenzioni relative a acronimi e abbreviazioni, vedere la https://learn.microsoft.com/en-us/style-guide/welcome/["Microsoft Writing Style Guide"^].
+
+
+
 === voce attiva (rispetto a voce passiva)
 
 Fare riferimento a. <<Scrivere attivamente>>.
@@ -390,20 +396,21 @@ Fare riferimento a. <<Scrivere attivamente>>.
 
 === ammonizioni
 
-Utilizzare le seguenti etichette per identificare i contenuti separatamente dal flusso principale:
+Le ammonizioni sono uno strumento potente quando usato correttamente. Possono attirare l'attenzione su informazioni importanti, fornire suggerimenti utili o avvisare gli utenti di potenziali pericoli. Se utilizzati in modo eccessivo, perdono il loro impatto e possono causare l'affaticamento dell'utente. Ecco alcune linee guida per garantire l'uso efficace delle ammonizioni.
 
-* NOTA
-+
-Utilizzare LA NOTA per informazioni importanti che devono essere distinte dal resto del testo. Evitare di utilizzare UNA NOTA per le informazioni "piacevoli da conoscere" che non sono necessarie per gli utenti per conoscere l'attività o per completare l'attività.
+Utilizzare le seguenti etichette per separare le ammonizioni dal flusso di contenuti principale:
 
-* SUGGERIMENTO
-+
-USA LA PUNTA con parsimonia, se del tutto, perché la nostra policy è quella di documentare sempre le informazioni sulle Best practice per impostazione predefinita. Se necessario, utilizza IL SUGGERIMENTO per contenere informazioni sulle Best practice che aiutano gli utenti a utilizzare un prodotto o a completare una fase o un'attività in modo semplice ed efficiente.
+* NOTA utilizzare la NOTA per evidenziare informazioni importanti che devono distinguersi dal resto del testo. Tuttavia, evitare di utilizzare UNA NOTA per le informazioni "utili da conoscere" che non sono essenziali per gli utenti per capire o completare un'attività. Lo scopo di una NOTA è di attirare l'attenzione del lettore su punti critici che potrebbero altrimenti trascurare.
+* I suggerimenti dovrebbero essere utilizzati con parsimonia, se non del tutto, poiché la nostra politica è quella di documentare le informazioni sulle Best practice per impostazione predefinita. Se necessario, utilizzare il SUGGERIMENTO per evidenziare le informazioni sulle procedure consigliate che consentono agli utenti di utilizzare un prodotto o completare un passaggio o un'attività in modo più semplice ed efficiente. Un SUGGERIMENTO dovrebbe fornire consigli utili o scorciatoie che possano migliorare l'esperienza dell'utente.
+* ATTENZIONE prestare attenzione per avvisare gli utenti in merito a condizioni o azioni che possono portare a risultati indesiderati, incluse lesioni personali o danni alle apparecchiature. PRESTARE ATTENZIONE per attirare l'attenzione sui potenziali pericoli che l'utente deve evitare per prevenire danni o interruzioni.
 
-* ATTENZIONE
-+
-Fare attenzione per avvisare gli utenti in merito a condizioni o procedure che possono causare lesioni personali non letali o estremamente pericolose.
 
+.Linee guida aggiuntive
+* Utilizzare solo gli ammonimenti supportati. Qualsiasi altro tipo di formattazione non è supportato.
+* Evitare di utilizzare eccessivamente gli ammonimenti. L'uso eccessivo può portare gli utenti a ignorare queste importanti sezioni perché le considerano il "cassetto spazzatura" dei nostri documenti.
+* Come regola generale, limitare il numero di ammonizioni a un massimo di 3 per pagina.
+* Fornire informazioni chiare e concise all'interno dell'ammonizione. Il messaggio deve essere breve e preciso, consentendo agli utenti di comprendere rapidamente l'importanza delle informazioni fornite.
+* Evitare gli ammonimenti di AsciDoc in una tavola. Se il contenuto deve essere identificato come nota, suggerimento o attenzione, utilizzare Nota:, Suggerimento:, o attenzione: come collegamento in linea al testo.
 
 
 
