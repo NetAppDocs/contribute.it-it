@@ -554,7 +554,8 @@ Se necessario, consultare gli articoli della Knowledge base di NetApp nei conten
 Gli elenchi di informazioni sono generalmente più facili da acquisire e assorbire rispetto ai blocchi di testo. Prendi in considerazione i modi per semplificare le informazioni complesse presentarle sotto forma di elenco. Ecco alcune linee guida generali, ma utilizza il tuo giudizio:
 
 * Assicurarsi che il motivo dell'elenco sia chiaro. Introdurre l'elenco con una frase completa, un frammento di frase con due punti o un'intestazione.
-* Gli elenchi devono contenere da due a sette voci. In generale, più brevi sono le informazioni di ciascuna voce, più voci è possibile aggiungere mantenendo la scansione dell'elenco.
+* Quando si utilizza un elenco all'interno di un elenco, limitare la struttura al massimo a due livelli di profondità per mantenere chiarezza e leggibilità. Se si ha bisogno di più livelli, è consigliabile riorganizzare il contenuto per semplificare la navigazione e la comprensione da parte degli utenti.
+* Tutti gli elenchi, compresi quelli nidificati, devono contenere da due a sette voci. In generale, più brevi sono le informazioni di ciascuna voce, più voci è possibile aggiungere mantenendo la scansione dell'elenco. Se un elenco contiene più voci che contengono elenchi nidificati, prendere in considerazione l'utilizzo di sezioni o titoli di blocco per dividere l'intero elemento in frammenti più consumabili.
 * Le voci dell'elenco devono essere il più possibile scannable. Evitare blocchi di testo che impedano la scansione delle voci dell'elenco.
 * Le voci dell'elenco devono iniziare con una lettera maiuscola e le voci dell'elenco devono essere grammaticamente parallele. Ad esempio, iniziare ogni voce con un nome o un verbo:
 +
