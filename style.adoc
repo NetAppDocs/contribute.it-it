@@ -403,6 +403,13 @@ Utilizzare le seguenti etichette per separare le ammonizioni dal flusso di conte
 * NOTA utilizzare la NOTA per evidenziare informazioni importanti che devono distinguersi dal resto del testo. Tuttavia, evitare di utilizzare UNA NOTA per le informazioni "utili da conoscere" che non sono essenziali per gli utenti per capire o completare un'attività. Lo scopo di una NOTA è di attirare l'attenzione del lettore su punti critici che potrebbero altrimenti trascurare.
 * I suggerimenti dovrebbero essere utilizzati con parsimonia, se non del tutto, poiché la nostra politica è quella di documentare le informazioni sulle Best practice per impostazione predefinita. Se necessario, utilizzare il SUGGERIMENTO per evidenziare le informazioni sulle procedure consigliate che consentono agli utenti di utilizzare un prodotto o completare un passaggio o un'attività in modo più semplice ed efficiente. Un SUGGERIMENTO dovrebbe fornire consigli utili o scorciatoie che possano migliorare l'esperienza dell'utente.
 * ATTENZIONE prestare attenzione per avvisare gli utenti in merito a condizioni o azioni che possono portare a risultati indesiderati, incluse lesioni personali o danni alle apparecchiature. PRESTARE ATTENZIONE per attirare l'attenzione sui potenziali pericoli che l'utente deve evitare per prevenire danni o interruzioni.
+* BEST PRACTICE utilizzare la BEST PRACTICE per evidenziare i modi ottimali per completare le attività o utilizzare un prodotto. Non si tratta di semplici suggerimenti, ma di strategie che sono state convalidate da esperti o standard di settore.
++
+** *Che cosa fa una PRATICA MIGLIORE?* Si tratta di una strategia attuabile e specifica per le attività che offre vantaggi chiari ed è supportata da fonti affidabili.
+** *Quando posso usarle?* Puoi utilizzare LE BEST PRACTICE per tutti i tipi di contenuti e per tutti gli utenti. Come LE PUNTE, usali con parsimonia per mantenere il loro significato.
+** *Come li formatta?* Presentare le BEST PRACTICE in un formato coerente e intuitivo. Potrebbe trattarsi di un elenco puntato, di un elenco numerato o di un paragrafo, a seconda del contesto.
+
+
 
 
 .Linee guida aggiuntive
