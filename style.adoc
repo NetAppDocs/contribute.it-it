@@ -398,17 +398,31 @@ Fare riferimento a. <<Scrivere attivamente>>.
 
 Le ammonizioni sono uno strumento potente quando usato correttamente. Possono attirare l'attenzione su informazioni importanti, fornire suggerimenti utili o avvisare gli utenti di potenziali pericoli. Se utilizzati in modo eccessivo, perdono il loro impatto e possono causare l'affaticamento dell'utente. Ecco alcune linee guida per garantire l'uso efficace delle ammonizioni.
 
-Utilizzare le seguenti etichette per separare le ammonizioni dal flusso di contenuti principale:
+.Ammonizioni standard
+Tre ammonizioni standard utilizzano etichette personalizzate. Le etichette sono NOTA, PUNTA e attenzione. Questi tre ammonimenti standard sono formattati in modo distinto dal testo normale, e le loro etichette sono sempre scritte in maiuscolo nella fonte di AsciDoc.
 
 * NOTA utilizzare la NOTA per evidenziare informazioni importanti che devono distinguersi dal resto del testo. Tuttavia, evitare di utilizzare UNA NOTA per le informazioni "utili da conoscere" che non sono essenziali per gli utenti per capire o completare un'attività. Lo scopo di una NOTA è di attirare l'attenzione del lettore su punti critici che potrebbero altrimenti trascurare.
-* I suggerimenti dovrebbero essere utilizzati con parsimonia, se non del tutto, poiché la nostra politica è quella di documentare le informazioni sulle Best practice per impostazione predefinita. Se necessario, utilizzare il SUGGERIMENTO per evidenziare le informazioni sulle procedure consigliate che consentono agli utenti di utilizzare un prodotto o completare un passaggio o un'attività in modo più semplice ed efficiente. Un SUGGERIMENTO dovrebbe fornire consigli utili o scorciatoie che possano migliorare l'esperienza dell'utente.
+* SUGGERIMENTO utilizzare il SUGGERIMENTO per fornire consigli utili o scorciatoie che possono migliorare l'esperienza dell'utente. Ad esempio, un SUGGERIMENTO potrebbe aiutare un utente a completare un passaggio o un'attività in modo più semplice ed efficiente. Un SUGGERIMENTO dovrebbe essere usato con parsimonia, se non del tutto, poiché la nostra politica è quella di documentare il modo migliore per completare un compito per impostazione predefinita.
 * ATTENZIONE prestare attenzione per avvisare gli utenti in merito a condizioni o azioni che possono portare a risultati indesiderati, incluse lesioni personali o danni alle apparecchiature. PRESTARE ATTENZIONE per attirare l'attenzione sui potenziali pericoli che l'utente deve evitare per prevenire danni o interruzioni.
-* BEST PRACTICE utilizzare la BEST PRACTICE per evidenziare i modi ottimali per completare le attività o utilizzare un prodotto. Non si tratta di semplici suggerimenti, ma di strategie che sono state convalidate da esperti o standard di settore.
-+
-** *Che cosa fa una PRATICA MIGLIORE?* Si tratta di una strategia attuabile e specifica per le attività che offre vantaggi chiari ed è supportata da fonti affidabili.
-** *Quando posso usarle?* Puoi utilizzare LE BEST PRACTICE per tutti i tipi di contenuti e per tutti gli utenti. Come LE PUNTE, usali con parsimonia per mantenere il loro significato.
-** *Come li formatta?* Presentare le BEST PRACTICE in un formato coerente e intuitivo. Potrebbe trattarsi di un elenco puntato, di un elenco numerato o di un paragrafo, a seconda del contesto.
 
+
+.Best practice ammonizione
+L'ammonizione delle Best practice non è un'etichetta di ammonizione personalizzata, ma può essere utilizzata come convenzione di formattazione autonoma. Utilizzare la procedura consigliata per evidenziare i modi ottimali per completare le attività o utilizzare un prodotto. Non si tratta di semplici suggerimenti, ma di strategie che sono state convalidate da esperti o standard di settore.
+
+* *Che cosa fa una Best practice?*
++
+Si tratta di una strategia attuabile e specifica per le attività che offre vantaggi chiari ed è supportata da fonti affidabili.
+
+* *Quando posso usare le Best practice?*
++
+È possibile utilizzare le procedure consigliate per tutti i tipi di contenuto e per tutti gli utenti. Come LE PUNTE, usali con parsimonia per mantenere il loro significato.
+
+* *Come formatta le Best practice?*
++
+Per utilizzare il formato delle procedure consigliate, applicare le maiuscole in stile frase, fare in grassetto il termine Best practice, seguito da due punti e uno spazio.
+
++
+Presentare le Best practice in un formato coerente e intuitivo. Potrebbe trattarsi di un elenco puntato, di un elenco numerato o di un paragrafo, a seconda del contesto. Ad esempio, *Best practice*: Testare sempre le modifiche di configurazione in un ambiente di staging prima di applicarle alla produzione.
 
 
 
