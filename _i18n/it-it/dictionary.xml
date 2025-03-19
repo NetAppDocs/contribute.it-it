@@ -154,7 +154,6 @@
   <block id="ea403515c7449c382f3a20bd19ddbd50" category="section-title">Che rappresenta le etichette visualizzate</block>
   <block id="4ef516ca2cc08cdcd670e074e779540e" category="section-title">Utilizzo di screen capture</block>
   <block id="26bcf216756ee1aebfeb7431d225e3c4" category="paragraph">Un flusso di lavoro è una serie di passaggi o sottoattività che descrivono come raggiungere un obiettivo dell'utente. L'ambito di un workflow è un obiettivo completo.</block>
-  <block id="927796bbaa454c7de262b6c5f63a9498" category="doc">Contribuisci ai contenuti tecnici di NetApp in GitHub</block>
   <block id="5b1673a33a3bc92200f7685076cfb382" category="paragraph">La documentazione per i prodotti e i servizi NetApp è open source. Ciò consente di contribuire al contenuto apportando miglioramenti, correzioni e suggerimenti. Tutto ciò di cui hai bisogno è un account GitHub e una piccola iniziativa.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">Panoramica</block>
   <block id="f1eb983643f08d3d76ff0c9dcdd99f9b" category="paragraph">Puoi contribuire ai nostri documenti utilizzando le seguenti opzioni:</block>
@@ -591,4 +590,11 @@
   <block id="36744f1e0c64e2f519e59cccdba068a1" category="list-text">*Come formatta le Best practice?*</block>
   <block id="c326700655ab8fca23fa2162a1adaa37" category="paragraph">Per utilizzare il formato delle procedure consigliate, applicare le maiuscole in stile frase, fare in grassetto il termine Best practice, seguito da due punti e uno spazio.</block>
   <block id="0c4265fbbfc82a92746e47643f565c1c" category="paragraph">Presentare le Best practice in un formato coerente e intuitivo. Potrebbe trattarsi di un elenco puntato, di un elenco numerato o di un paragrafo, a seconda del contesto. Ad esempio, *Best practice*: Testare sempre le modifiche di configurazione in un ambiente di staging prima di applicarle alla produzione.</block>
+  <block id="264e061aa850fbdff533ac273d529d09" category="summary">La politica di NetApp è quella di proibire la pubblicazione di contenuti generati dall'intelligenza artificiale che non sono stati verificati e convalidati da un essere umano.</block>
+  <block id="d0482f09772a334a3c8f4646a75d2ae4" category="summary">Imparare la sintassi di AsciDoc per contribuire alla documentazione di NetApp.</block>
+  <block id="a383d20edf0eed3b667f267bc4178aa1" category="summary">Aiutaci a migliorare la documentazione dei prodotti NetApp apportando miglioramenti, correzioni e suggerimenti.</block>
+  <block id="810127b15467af054cfb3174cf01513c" category="doc">Contribuire alla documentazione dei prodotti NetApp in GitHub</block>
+  <block id="5fc1774ab777f265a9e9e8436a4165bc" category="summary">Il nostro stile è colloquiale ed empatico, ma siamo sempre professionali e ci mettiamo al punto.</block>
+  <block id="db974238714ca8de634a7ce1d083a14f" category="section-title">API</block>
+  <block id="e823e37af27041a01f75462ee35c0848" category="paragraph">Un'API (Application Programming Interface) fa riferimento a un'unica interfaccia che fornisce l'accesso a un prodotto o servizio specifico. All'interno di un'API di prodotto di grandi dimensioni, utilizzare il termine _API_ per fare riferimento a ogni insieme di endpoint associati a un tipo di risorsa o a un componente. Quando si fa riferimento a più interfacce distinte, utilizzare il termine _API_.</block>
 </blocks>
