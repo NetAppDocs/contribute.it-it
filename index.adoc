@@ -85,11 +85,7 @@ Se ti piace modificare i contenuti, puoi inviare le modifiche esatte del documen
 
 In qualità di collaboratore esterno, non potrai pubblicare direttamente la modifica. Il responsabile del contenuto esaminerà le modifiche, apporta le modifiche necessarie e le unirà. In questo caso, GitHub riceve una notifica via e-mail.
 
-Se hai bisogno di aiuto con il nostro stile di scrittura o la sintassi di origine, puoi utilizzare queste risorse:
-
-* link:style.html["Guida di stile per documenti NetApp"]
-* link:asciidoc_syntax.html["Sintassi di AsciiDoc"]
-
+Se hai bisogno di aiuto per modificare il file sorgente, puoilink:asciidoc_syntax.html["scopri la sintassi AsciiDoc"] .
 
 .Fasi
 . Se non disponi già di un account GitHub, https://github.com/join["crearne uno da github.com"^]
